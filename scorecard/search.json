@@ -1,0 +1,7359 @@
+[
+  {
+    "id": "24s",
+    "name": "24S",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "3musketeers",
+    "name": "3Musketeers",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "5-gum",
+    "name": "5 Gum",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "5-star",
+    "name": "5 Star",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "7days",
+    "name": "7Days",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "7up",
+    "name": "7up",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "8fig",
+    "name": "8fig",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "abc-mart-inc",
+    "name": "ABC-Mart Inc",
+    "aliases": [],
+    "sector": "Apparel & Footwear",
+    "grade": "N/A"
+  },
+  {
+    "id": "abu-siouf",
+    "name": "Abu Siouf",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "abz-pharma",
+    "name": "ABZ Pharma",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "acana",
+    "name": "Acana",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "acqua-di-parma",
+    "name": "Acqua Di Parma",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "acqua-panna",
+    "name": "Acqua Panna",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "actimel",
+    "name": "Actimel",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "activia",
+    "name": "Activia",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "ades",
+    "name": "AdeS",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "adextent",
+    "name": "AdExtent",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "adidas",
+    "name": "Adidas",
+    "aliases": [],
+    "sector": "Apparel & Footwear",
+    "grade": "C"
+  },
+  {
+    "id": "aditya-birla-group",
+    "name": "Aditya Birla Group",
+    "aliases": [],
+    "sector": "Apparel & Footwear",
+    "grade": "F"
+  },
+  {
+    "id": "advanced-micro-devices-amd",
+    "name": "Advanced Micro Devices (AMD)",
+    "aliases": [],
+    "sector": "ICT",
+    "grade": "D"
+  },
+  {
+    "id": "aeon",
+    "name": "AEON",
+    "aliases": [],
+    "sector": "Food & Beverage",
+    "grade": "F"
+  },
+  {
+    "id": "aerin",
+    "name": "AERIN",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "aero",
+    "name": "Aero",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "aesop",
+    "name": "Aesop",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "affogata",
+    "name": "Affogata",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "agoda",
+    "name": "Agoda",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "ahava",
+    "name": "Ahava",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "ahold-delhaize",
+    "name": "Ahold Delhaize",
+    "aliases": [],
+    "sector": "Food & Beverage",
+    "grade": "F"
+  },
+  {
+    "id": "ai21-labs",
+    "name": "AI21 Labs",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "aidoc",
+    "name": "Aidoc",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "airbnb",
+    "name": "Airbnb",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "airwaves",
+    "name": "Airwaves",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "airwick",
+    "name": "Airwick",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "ajinomoto",
+    "name": "Ajinomoto",
+    "aliases": [],
+    "sector": "Food & Beverage",
+    "grade": "F"
+  },
+  {
+    "id": "aldi-nord-not-uk",
+    "name": "Aldi Nord (not UK)",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "align-probiotic",
+    "name": "Align Probiotic",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "aligned",
+    "name": "Aligned",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "almarai",
+    "name": "Almarai",
+    "aliases": [],
+    "sector": "Food & Beverage",
+    "grade": "N/A"
+  },
+  {
+    "id": "alpen-gold",
+    "name": "Alpen Gold",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "alpro",
+    "name": "Alpro",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "altoids",
+    "name": "Altoids",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "alvalle",
+    "name": "Alvalle",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "always",
+    "name": "Always",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "amazon",
+    "name": "Amazon",
+    "aliases": [],
+    "sector": "ICT",
+    "grade": "D"
+  },
+  {
+    "id": "ambi-pur",
+    "name": "Ambi Pur",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "amdocs",
+    "name": "Amdocs",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "american-eagle",
+    "name": "American Eagle",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "american-eagle-outfitters",
+    "name": "American Eagle Outfitters",
+    "aliases": [],
+    "sector": "Apparel & Footwear",
+    "grade": "F"
+  },
+  {
+    "id": "american-heritage-chocolate",
+    "name": "American Heritage Chocolate",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "amika",
+    "name": "Amika",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "amphenol-corporation",
+    "name": "Amphenol Corporation",
+    "aliases": [],
+    "sector": "ICT",
+    "grade": "F"
+  },
+  {
+    "id": "analog-devices",
+    "name": "Analog Devices",
+    "aliases": [],
+    "sector": "ICT",
+    "grade": "D"
+  },
+  {
+    "id": "anima",
+    "name": "Anima",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "anta-sports-products",
+    "name": "Anta Sports Products",
+    "aliases": [],
+    "sector": "Apparel & Footwear",
+    "grade": "F"
+  },
+  {
+    "id": "apiiro",
+    "name": "Apiiro",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "apple",
+    "name": "Apple",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "D"
+  },
+  {
+    "id": "appletiser",
+    "name": "Appletiser",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "applied-materials",
+    "name": "Applied Materials",
+    "aliases": [],
+    "sector": "ICT",
+    "grade": "D"
+  },
+  {
+    "id": "appsflyer",
+    "name": "Appsflyer",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "appwrite",
+    "name": "Appwrite",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "aptamil",
+    "name": "Aptamil",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "aqua",
+    "name": "Aqua",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "aqua-security",
+    "name": "Aqua Security",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "aquafina",
+    "name": "Aquafina",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "aquarius",
+    "name": "Aquarius",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "aquence",
+    "name": "Aquence",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "aramis",
+    "name": "aramis",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "arca-continental-sab-de-cv",
+    "name": "Arca Continental, SAB de CV",
+    "aliases": [],
+    "sector": "Food & Beverage",
+    "grade": "F"
+  },
+  {
+    "id": "archer-daniels-midland-adm",
+    "name": "Archer Daniels Midland (ADM)",
+    "aliases": [],
+    "sector": "Food & Beverage",
+    "grade": "D"
+  },
+  {
+    "id": "arezzoco",
+    "name": "Arezzo&Co",
+    "aliases": [],
+    "sector": "Apparel & Footwear",
+    "grade": "F"
+  },
+  {
+    "id": "argus-cyber-security",
+    "name": "Argus Cyber Security",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "ariel",
+    "name": "Ariel",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "aritzia",
+    "name": "Aritzia",
+    "aliases": [],
+    "sector": "Apparel & Footwear",
+    "grade": "F"
+  },
+  {
+    "id": "arwa",
+    "name": "Arwa",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "asml-holdings",
+    "name": "ASML Holdings",
+    "aliases": [],
+    "sector": "ICT",
+    "grade": "D"
+  },
+  {
+    "id": "asos",
+    "name": "ASOS",
+    "aliases": [],
+    "sector": "Apparel & Footwear",
+    "grade": "C"
+  },
+  {
+    "id": "aspirin",
+    "name": "Aspirin",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "associated-british-foods",
+    "name": "Associated British Foods",
+    "aliases": [],
+    "sector": "Food & Beverage",
+    "grade": "D"
+  },
+  {
+    "id": "astra",
+    "name": "Astra",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "ateam",
+    "name": "A.Team",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "atelier-cologne",
+    "name": "Atelier Cologne",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "aussie",
+    "name": "Aussie",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "authentic-beauty-concept",
+    "name": "Authentic Beauty Concept",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "aveda",
+    "name": "Aveda",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "aviva",
+    "name": "Aviva",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "awesomeness",
+    "name": "Awesomeness",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "axa",
+    "name": "AXA",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "axe",
+    "name": "Axe",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "axonius",
+    "name": "Axonius",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "azzaro-fragrances",
+    "name": "Azzaro Fragrances",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "bae-systems",
+    "name": "BAE Systems",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "baken-ets",
+    "name": "Baken-Ets",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "balance",
+    "name": "Balance",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "balisto",
+    "name": "Balisto",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "bally",
+    "name": "Bally",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "bank-of-america",
+    "name": "Bank of America",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "bank-of-montreal",
+    "name": "Bank of Montreal",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "barbican",
+    "name": "Barbican",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "barbie",
+    "name": "Barbie",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "barclays",
+    "name": "Barclays",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "barni",
+    "name": "Barni",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "barqs",
+    "name": "Barq's",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "barry-callebaut",
+    "name": "Barry Callebaut",
+    "aliases": [],
+    "sector": "Food & Beverage",
+    "grade": "F"
+  },
+  {
+    "id": "bath-body-works",
+    "name": "Bath & Body Works",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "bayer-pharmaceuticals",
+    "name": "Bayer Pharmaceuticals",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "bellator",
+    "name": "Bellator",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "belle-international",
+    "name": "Belle International",
+    "aliases": [],
+    "sector": "Apparel & Footwear",
+    "grade": "N/A"
+  },
+  {
+    "id": "belmond",
+    "name": "Belmond",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "belvita",
+    "name": "Belvita",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "ben-jerrys",
+    "name": "Ben & Jerry's",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "benefit-cosmetics",
+    "name": "Benefit Cosmetics",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "bens-original",
+    "name": "Ben's Original",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "bepanthen",
+    "name": "Bepanthen",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "berluti",
+    "name": "Berluti",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "best-buy",
+    "name": "Best Buy",
+    "aliases": [],
+    "sector": "ICT",
+    "grade": "C"
+  },
+  {
+    "id": "bet",
+    "name": "BET",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "big-red",
+    "name": "Big Red",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "bigpanda",
+    "name": "BigPanda",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "biocatch",
+    "name": "BioCatch",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "biotherm",
+    "name": "BioTherm",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "bizim-mutfak",
+    "name": "Bizim Mutfak",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "bizzabo",
+    "name": "Bizzabo",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "blazepod",
+    "name": "Blazepod",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "blink-ops",
+    "name": "Blink Ops",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "bnp-paribas",
+    "name": "BNP Paribas",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "bob",
+    "name": "Bob",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "bobbi-brown",
+    "name": "Bobbi Brown",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "bodyarmor",
+    "name": "BodyArmor",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "boe-technology",
+    "name": "BOE Technology",
+    "aliases": [],
+    "sector": "ICT",
+    "grade": "F"
+  },
+  {
+    "id": "boeing",
+    "name": "Boeing",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "bold",
+    "name": "Bold",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "bomaja",
+    "name": "Bomaja",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "bon-aqua",
+    "name": "Bon Aqua",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "bonderite",
+    "name": "Bonderite",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "bookingcom",
+    "name": "Booking.com",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "bounce",
+    "name": "Bounce",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "bounty",
+    "name": "Bounty",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "bounty-mars",
+    "name": "Bounty (Mars)",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "bounty-paper-towels",
+    "name": "Bounty Paper Towels",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "bournvita",
+    "name": "BournVita",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "bp-british-petroleum",
+    "name": "BP (British Petroleum)",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "braun",
+    "name": "Braun",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "bref",
+    "name": "Bref",
+    "aliases": [],
+    "sector": "Food & Beverage",
+    "grade": "F"
+  },
+  {
+    "id": "bringg",
+    "name": "Bringg",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "brisk",
+    "name": "Brisk",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "broadcom",
+    "name": "Broadcom",
+    "aliases": [],
+    "sector": "ICT",
+    "grade": "D"
+  },
+  {
+    "id": "bubly",
+    "name": "Bubly",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "bulgari",
+    "name": "Bulgari",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "bulgari-bvlgari",
+    "name": "Bulgari / Bvlgari",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "bumble-and-bumble",
+    "name": "Bumble and bumble",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "burberry",
+    "name": "Burberry",
+    "aliases": [],
+    "sector": "Apparel & Footwear",
+    "grade": "C"
+  },
+  {
+    "id": "burger-king",
+    "name": "Burger King",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "buxton",
+    "name": "Buxton",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "cacharel",
+    "name": "Cacharel",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "cadbury",
+    "name": "Cadbury",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "calgon",
+    "name": "Calgon",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "calippo",
+    "name": "Calippo",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "calve",
+    "name": "Calve",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "campbell-soup",
+    "name": "Campbell Soup",
+    "aliases": [],
+    "sector": "Food & Beverage",
+    "grade": "D"
+  },
+  {
+    "id": "canada-goose",
+    "name": "Canada Goose",
+    "aliases": [],
+    "sector": "Apparel & Footwear",
+    "grade": "F"
+  },
+  {
+    "id": "canesten",
+    "name": "Canesten",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "canon",
+    "name": "Canon",
+    "aliases": [],
+    "sector": "ICT",
+    "grade": "F"
+  },
+  {
+    "id": "capital-one",
+    "name": "Capital One",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "capn-crunch",
+    "name": "Cap'N Crunch",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "cappy",
+    "name": "Cappy",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "capri-holdings",
+    "name": "Capri Holdings",
+    "aliases": [],
+    "sector": "Apparel & Footwear",
+    "grade": "D"
+  },
+  {
+    "id": "caribou-coffee",
+    "name": "Caribou Coffee",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "carita",
+    "name": "CARITA",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "carmel-agrexco",
+    "name": "Carmel Agrexco",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "carnation",
+    "name": "Carnation",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "carrefour",
+    "name": "Carrefour",
+    "aliases": [],
+    "sector": "Food & Beverage",
+    "grade": "F"
+  },
+  {
+    "id": "carte-dor",
+    "name": "Carte d'Or",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "carte-dor-ice-creams",
+    "name": "Carte D'Or Ice Creams",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "carters",
+    "name": "Carter's",
+    "aliases": [],
+    "sector": "Apparel & Footwear",
+    "grade": "C"
+  },
+  {
+    "id": "cascade",
+    "name": "Cascade",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "caterpillar",
+    "name": "Caterpillar",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "cato-networks",
+    "name": "Cato Networks",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "catsan",
+    "name": "Catsan",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "cbs-entertainment",
+    "name": "CBS Entertainment",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "cbs-media-ventures",
+    "name": "CBS Media Ventures",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "cbs-news",
+    "name": "CBS News",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "cbs-sports-network",
+    "name": "CBS Sports Network",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "cbs-studios",
+    "name": "CBS Studios",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "cbs-television-stations",
+    "name": "CBS Television Stations",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "celebrations",
+    "name": "Celebrations",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "celery",
+    "name": "Celery",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "celine",
+    "name": "Celine",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "cellebrite",
+    "name": "Cellebrite",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "ceralac",
+    "name": "Ceralac",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "cerave",
+    "name": "Cerave",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "ceresit",
+    "name": "Ceresit",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "cesar",
+    "name": "Cesar",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "ceva",
+    "name": "CEVA",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "cha-ling",
+    "name": "Cha Ling",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "chanel",
+    "name": "Chanel",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "chappie",
+    "name": "Chappie",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "chargeflow",
+    "name": "Chargeflow",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "charlie-banana",
+    "name": "Charlie Banana",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "charmin",
+    "name": "Charmin",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "chaudfontaine",
+    "name": "Chaudfontaine",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "chaumet",
+    "name": "Chaumet",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "cheapflights",
+    "name": "Cheapflights",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "checkpoint",
+    "name": "CheckPoint",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "cheer",
+    "name": "Cheer",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "cheerios",
+    "name": "Cheerios",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "chesters",
+    "name": "Chesters",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "china-mengniu-dairy-co-ltd",
+    "name": "China Mengniu Dairy Co Ltd",
+    "aliases": [],
+    "sector": "Food & Beverage",
+    "grade": "F"
+  },
+  {
+    "id": "chips-ahoy",
+    "name": "Chips Ahoy!",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "chocapic",
+    "name": "Chocapic",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "ciel",
+    "name": "Ciel",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "cif",
+    "name": "Cif",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "cini-minis",
+    "name": "Cini Minis",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "claroty",
+    "name": "Claroty",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "clearasil",
+    "name": "Clearasil",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "clearblue",
+    "name": "Clearblue",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "clinique",
+    "name": "Clinique",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "clorets",
+    "name": "Clorets",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "cloudinary",
+    "name": "Cloudinary",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "club-social",
+    "name": "Club Social",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "cmt",
+    "name": "CMT",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "coca-cola",
+    "name": "Coca Cola",
+    "aliases": [],
+    "sector": "Food & Beverage",
+    "grade": "D"
+  },
+  {
+    "id": "coca-cola-european-partners-ccep-now-coca-cola-europacific-partners-plc",
+    "name": "Coca-Cola European Partners (CCEP) (now Coca-Cola Europacific Partners Plc)",
+    "aliases": [],
+    "sector": "Food & Beverage",
+    "grade": "D"
+  },
+  {
+    "id": "coca-cola-hbc-ag",
+    "name": "Coca-Cola HBC AG",
+    "aliases": [],
+    "sector": "Food & Beverage",
+    "grade": "F"
+  },
+  {
+    "id": "cocoavia",
+    "name": "CocoaVia",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "codium",
+    "name": "Codium",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "coffee-mate",
+    "name": "Coffee Mate",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "coles",
+    "name": "Coles",
+    "aliases": [],
+    "sector": "Food & Beverage",
+    "grade": "C"
+  },
+  {
+    "id": "colors",
+    "name": "Colors",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "columbia-sportswear",
+    "name": "Columbia Sportswear",
+    "aliases": [],
+    "sector": "Apparel & Footwear",
+    "grade": "D"
+  },
+  {
+    "id": "combos",
+    "name": "Combos",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "comedy-central",
+    "name": "Comedy Central",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "comfort",
+    "name": "Comfort",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "conagra",
+    "name": "ConAgra",
+    "aliases": [],
+    "sector": "Food & Beverage",
+    "grade": "D"
+  },
+  {
+    "id": "connecteam",
+    "name": "Connecteam",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "conservative-party",
+    "name": "Conservative party",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "coralogix",
+    "name": "Coralogix",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "cornetto",
+    "name": "Cornetto",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "cornetto-ice-creams",
+    "name": "Cornetto Ice Creams",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "corning",
+    "name": "Corning",
+    "aliases": [],
+    "sector": "ICT",
+    "grade": "F"
+  },
+  {
+    "id": "costa-coffee",
+    "name": "Costa Coffee",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "costco",
+    "name": "Costco",
+    "aliases": [],
+    "sector": "Food & Beverage",
+    "grade": "D"
+  },
+  {
+    "id": "coty",
+    "name": "Coty",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "cow-gate",
+    "name": "Cow & Gate",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "cracker-jack",
+    "name": "Cracker Jack",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "crest-toothpaste",
+    "name": "Crest Toothpaste",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "curver",
+    "name": "Curver",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "cyberark",
+    "name": "CyberArk",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "cybereason",
+    "name": "Cybereason",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "dagshub",
+    "name": "DagsHub",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "daim",
+    "name": "Daim",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "dairy-milk",
+    "name": "Dairy Milk",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "damla-su",
+    "name": "Damla Su",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "danette",
+    "name": "Danette",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "danone",
+    "name": "Danone",
+    "aliases": [],
+    "sector": "Food & Beverage",
+    "grade": "F"
+  },
+  {
+    "id": "dany",
+    "name": "Dany",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "darphin",
+    "name": "Darphin",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "dasani",
+    "name": "Dasani",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "dasani-water",
+    "name": "Dasani Water",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "dash",
+    "name": "Dash",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "dawn",
+    "name": "Dawn",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "dealhub",
+    "name": "Dealhub",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "debenhams-group-formerly-boohoo-group",
+    "name": "Debenhams Group (formerly Boohoo Group)",
+    "aliases": [],
+    "sector": "Apparel & Footwear",
+    "grade": "D"
+  },
+  {
+    "id": "deckers-outdoor-corporation",
+    "name": "Deckers Outdoor Corporation",
+    "aliases": [],
+    "sector": "Apparel & Footwear",
+    "grade": "D"
+  },
+  {
+    "id": "deel",
+    "name": "Deel",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "deepcure",
+    "name": "DeepCure",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "del-valle",
+    "name": "Del Valle",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "delilah",
+    "name": "Delilah",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "dell",
+    "name": "Dell",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "D"
+  },
+  {
+    "id": "demoleap",
+    "name": "Demoleap",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "descope",
+    "name": "Descope",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "desert-diamond",
+    "name": "Desert Diamond",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "dettol",
+    "name": "Dettol",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "dfs",
+    "name": "DFS",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "di-giorno",
+    "name": "Di Giorno",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "dicks-sporting-goods",
+    "name": "Dick's Sporting Goods",
+    "aliases": [],
+    "sector": "Apparel & Footwear",
+    "grade": "F"
+  },
+  {
+    "id": "diesel-fragrances",
+    "name": "Diesel Fragrances",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "diet-coke",
+    "name": "Diet Coke",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "dig-security",
+    "name": "Dig Security",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "dine",
+    "name": "Dine",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "dior",
+    "name": "Dior",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "dior-christian-dior",
+    "name": "Dior / Christian Dior",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "dixan",
+    "name": "Dixan",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "dkny",
+    "name": "DKNY",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "dogadan",
+    "name": "Dogadan",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "dolce-gusto",
+    "name": "Dolce Gusto",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "dolmio",
+    "name": "Dolmio",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "domestos",
+    "name": "Domestos",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "doritos",
+    "name": "Doritos",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "doublemint",
+    "name": "Doublemint",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "doublemint-by-wrigleys",
+    "name": "Doublemint by Wrigley's",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "dove",
+    "name": "Dove",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "dove-mars",
+    "name": "Dove (Mars)",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "downy",
+    "name": "Downy",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "dr-pepper",
+    "name": "Dr. Pepper",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "draftboard",
+    "name": "Draftboard",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "dragonfly-db",
+    "name": "Dragonfly DB",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "dreamies",
+    "name": "Dreamies",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "dreft",
+    "name": "Dreft",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "drjart",
+    "name": "Dr.Jart+",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "droxiai",
+    "name": "Droxi.ai",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "durex",
+    "name": "Durex",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "duyvis",
+    "name": "Duyvis",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "dynamic-yield",
+    "name": "Dynamic Yield",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "ebly",
+    "name": "Ebly",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "eclat-textile-corporation",
+    "name": "Eclat Textile Corporation",
+    "aliases": [],
+    "sector": "Apparel & Footwear",
+    "grade": "F"
+  },
+  {
+    "id": "eclipse",
+    "name": "Eclipse",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "eden-springs",
+    "name": "Eden Springs",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "editions-de-parfums-frederic-malle",
+    "name": "Editions de parfums Frederic Malle",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "elbit-systems",
+    "name": "Elbit Systems",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "elementor",
+    "name": "Elementor",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "eleos-health",
+    "name": "Eleos Health",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "elevit",
+    "name": "Elevit",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "elseve",
+    "name": "Elseve",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "emilio-pucci",
+    "name": "Emilio Pucci",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "empire-co-ltd",
+    "name": "Empire Co. Ltd.",
+    "aliases": [],
+    "sector": "Food & Beverage",
+    "grade": "F"
+  },
+  {
+    "id": "enjoy-life",
+    "name": "Enjoy Life",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "era",
+    "name": "Era",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "ericsson",
+    "name": "Ericsson",
+    "aliases": [],
+    "sector": "ICT",
+    "grade": "C"
+  },
+  {
+    "id": "erikli",
+    "name": "Erikli",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "espresso-house",
+    "name": "Espresso House",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "essie",
+    "name": "Essie",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "estee-lauder",
+    "name": "Estee Lauder",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "ethel-m",
+    "name": "Ethel M",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "ethereum-staking-infrastructure-ssv-network",
+    "name": "Ethereum staking infrastructure SSV Network",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "etoro",
+    "name": "eToro",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "evian",
+    "name": "Evian",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "evolve",
+    "name": "Evolve",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "explorium",
+    "name": "Explorium",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "express-vpn",
+    "name": "Express VPN",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "ezbob",
+    "name": "Ezbob",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "fa",
+    "name": "Fa",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "fabric",
+    "name": "Fabric",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "fairlife",
+    "name": "Fairlife",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "fairy",
+    "name": "Fairy",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "falim",
+    "name": "Falim",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "fanta",
+    "name": "Fanta",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "fast-retailing",
+    "name": "Fast Retailing",
+    "aliases": [],
+    "sector": "Apparel & Footwear",
+    "grade": "D"
+  },
+  {
+    "id": "febreze",
+    "name": "Febreze",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "felix",
+    "name": "Felix",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "femsa",
+    "name": "FEMSA",
+    "aliases": [],
+    "sector": "Food & Beverage",
+    "grade": "F"
+  },
+  {
+    "id": "fendi",
+    "name": "Fendi",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "feng-tay-enterprises-co-ltd",
+    "name": "Feng Tay Enterprises Co Ltd",
+    "aliases": [],
+    "sector": "Apparel & Footwear",
+    "grade": "N/A"
+  },
+  {
+    "id": "fenty",
+    "name": "Fenty",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "fenty-beauty-by-rihanna",
+    "name": "Fenty Beauty by Rihanna",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "fernandes",
+    "name": "Fernandes",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "finaloop",
+    "name": "Finaloop",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "finout",
+    "name": "Finout",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "fintastic",
+    "name": "Fintastic",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "firebolt",
+    "name": "Firebolt",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "firefly",
+    "name": "Firefly",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "fisher-price",
+    "name": "Fisher-Price",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "fitbit",
+    "name": "Fitbit",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "fiverr",
+    "name": "Fiverr",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "fixodent",
+    "name": "Fixodent",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "flash",
+    "name": "Flash",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "fleuril",
+    "name": "Fleuril",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "flox",
+    "name": "Flox",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "flytrex",
+    "name": "Flytrex",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "foodspring",
+    "name": "foodspring",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "foot-locker",
+    "name": "Foot Locker",
+    "aliases": [],
+    "sector": "Apparel & Footwear",
+    "grade": "F"
+  },
+  {
+    "id": "forter",
+    "name": "Forter",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "foschini",
+    "name": "Foschini",
+    "aliases": [],
+    "sector": "Apparel & Footwear",
+    "grade": "F"
+  },
+  {
+    "id": "foshan-haitian-flavouring-and-food-co-ltd",
+    "name": "Foshan Haitian Flavouring and Food Co Ltd",
+    "aliases": [],
+    "sector": "Food & Beverage",
+    "grade": "N/A"
+  },
+  {
+    "id": "fred",
+    "name": "Fred",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "freia",
+    "name": "Freia",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "fresca",
+    "name": "Fresca",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "fresh",
+    "name": "Fresh",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "fritos",
+    "name": "Fritos",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "frontegg",
+    "name": "Frontegg",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "fujifilm-holdings-corporation-formerly-fuji-photo-film",
+    "name": "Fujifilm Holdings Corporation (formerly Fuji Photo Film)",
+    "aliases": [],
+    "sector": "ICT",
+    "grade": "F"
+  },
+  {
+    "id": "fundbox",
+    "name": "Fundbox",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "fundguard",
+    "name": "FundGuard",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "funyuns",
+    "name": "Funyuns",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "fuze-tea",
+    "name": "Fuze Tea",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "g4s",
+    "name": "G4S",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "gain",
+    "name": "Gain",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "galaxy",
+    "name": "Galaxy",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "game-fuel",
+    "name": "Game Fuel",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "gamesa",
+    "name": "Gamesa",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "gap",
+    "name": "Gap",
+    "aliases": [],
+    "sector": "Apparel & Footwear",
+    "grade": "B"
+  },
+  {
+    "id": "garden-gourmet",
+    "name": "Garden Gourmet",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "garnier",
+    "name": "Garnier",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "gatorade",
+    "name": "Gatorade",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "gelt",
+    "name": "Gelt",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "general-mills",
+    "name": "General Mills",
+    "aliases": [],
+    "sector": "Food & Beverage",
+    "grade": "D"
+  },
+  {
+    "id": "gerber",
+    "name": "Gerber",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "gildan-activewear",
+    "name": "Gildan Activewear",
+    "aliases": [],
+    "sector": "Apparel & Footwear",
+    "grade": "C"
+  },
+  {
+    "id": "gillette",
+    "name": "Gillette",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "gini",
+    "name": "Gini",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "giorgio-armani",
+    "name": "Giorgio Armani",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "givenchy",
+    "name": "Givenchy",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "glaceau-smartwater",
+    "name": "Glaceau Smartwater",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "glamglow",
+    "name": "Glamglow",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "global-e",
+    "name": "Global-e",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "gloww",
+    "name": "Gloww",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "gold-peak-tea",
+    "name": "Gold Peak Tea",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "gong",
+    "name": "Gong",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "google",
+    "name": "Google",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "google-chrome",
+    "name": "Google Chrome",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "grandmas",
+    "name": "Grandma's",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "graphiti",
+    "name": "Graphiti",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "grenade",
+    "name": "Grenade",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "groove",
+    "name": "Groove",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "growthspace",
+    "name": "GrowthSpace",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "grupo-bimbo",
+    "name": "Grupo Bimbo",
+    "aliases": [],
+    "sector": "Food & Beverage",
+    "grade": "F"
+  },
+  {
+    "id": "guerlain",
+    "name": "Guerlain",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "guesty",
+    "name": "Guesty",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "habana-labs",
+    "name": "Habana Labs",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "hadiklaim",
+    "name": "Hadiklaim",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "halls",
+    "name": "Halls",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "hanesbrands",
+    "name": "Hanesbrands",
+    "aliases": [],
+    "sector": "Apparel & Footwear",
+    "grade": "C"
+  },
+  {
+    "id": "harpic",
+    "name": "Harpic",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "hayat-su",
+    "name": "Hayat Su",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "head-and-shoulders",
+    "name": "Head and Shoulders",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "health-warrior",
+    "name": "Health Warrior",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "healthyio",
+    "name": "Healthy.io",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "helena-rubinstein",
+    "name": "Helena Rubinstein",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "hellmanns",
+    "name": "Hellmann's",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "hennes-mauritz-hm",
+    "name": "Hennes & Mauritz (H&M)",
+    "aliases": [],
+    "sector": "Apparel & Footwear",
+    "grade": "B"
+  },
+  {
+    "id": "herbal-essences",
+    "name": "Herbal Essences",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "herm\u00e8s",
+    "name": "Herm\u00e8s",
+    "aliases": [],
+    "sector": "Apparel & Footwear",
+    "grade": "F"
+  },
+  {
+    "id": "hershey",
+    "name": "Hershey",
+    "aliases": [],
+    "sector": "Food & Beverage",
+    "grade": "D"
+  },
+  {
+    "id": "hewlett-packard-enterprise",
+    "name": "Hewlett Packard Enterprise",
+    "aliases": [],
+    "sector": "ICT",
+    "grade": "B"
+  },
+  {
+    "id": "hewlett-packard-hp",
+    "name": "Hewlett-Packard (HP)",
+    "aliases": [],
+    "sector": "ICT",
+    "grade": "B"
+  },
+  {
+    "id": "hexagon",
+    "name": "Hexagon",
+    "aliases": [],
+    "sector": "ICT",
+    "grade": "F"
+  },
+  {
+    "id": "hikvision",
+    "name": "Hikvision",
+    "aliases": [],
+    "sector": "ICT",
+    "grade": "F"
+  },
+  {
+    "id": "hilo-life",
+    "name": "Hilo Life",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "hitachi-part-of-hitachi-group",
+    "name": "Hitachi (part of Hitachi Group)",
+    "aliases": [],
+    "sector": "ICT",
+    "grade": "D"
+  },
+  {
+    "id": "hon-hai-foxconn",
+    "name": "Hon Hai (Foxconn)",
+    "aliases": [],
+    "sector": "ICT",
+    "grade": "D"
+  },
+  {
+    "id": "honey-maid",
+    "name": "Honey Maid",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "honeybook",
+    "name": "Honeybook",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "hormel-foods-corporation",
+    "name": "Hormel Foods Corporation",
+    "aliases": [],
+    "sector": "Food & Beverage",
+    "grade": "F"
+  },
+  {
+    "id": "hot-wheels",
+    "name": "Hot Wheels",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "hotel-chocolat",
+    "name": "Hotel Chocolat",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "hoya",
+    "name": "Hoya",
+    "aliases": [],
+    "sector": "ICT",
+    "grade": "F"
+  },
+  {
+    "id": "hp",
+    "name": "HP",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "hsbc",
+    "name": "HSBC",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "hu",
+    "name": "Hu",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "hubba-bubba",
+    "name": "Hubba Bubba",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "hublot",
+    "name": "Hublot",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "hugo-boss",
+    "name": "Hugo Boss",
+    "aliases": [],
+    "sector": "Apparel & Footwear",
+    "grade": "C"
+  },
+  {
+    "id": "hyundai",
+    "name": "Hyundai",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "iams",
+    "name": "IAMS",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "ibm",
+    "name": "IBM",
+    "aliases": [],
+    "sector": "ICT",
+    "grade": "C"
+  },
+  {
+    "id": "immunai",
+    "name": "Immunai",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "imperva",
+    "name": "Imperva",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "indeitq",
+    "name": "Indeitq",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "indigo-books",
+    "name": "Indigo Books",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "inditex",
+    "name": "Inditex",
+    "aliases": [],
+    "sector": "Apparel & Footwear",
+    "grade": "B"
+  },
+  {
+    "id": "inner-mongolia-yili-industrial-group",
+    "name": "Inner Mongolia Yili Industrial Group",
+    "aliases": [],
+    "sector": "Food & Beverage",
+    "grade": "F"
+  },
+  {
+    "id": "innocent",
+    "name": "innocent",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "innocent-smoothies",
+    "name": "Innocent Smoothies",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "innoviz-technologies",
+    "name": "Innoviz Technologies",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "intailai",
+    "name": "Intail.ai",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "intel",
+    "name": "Intel",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "D"
+  },
+  {
+    "id": "ipana",
+    "name": "Ipana",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "ironsource",
+    "name": "IronSource",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "ivory",
+    "name": "Ivory",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "jack-daniels",
+    "name": "Jack Daniel's",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "jack-links",
+    "name": "Jack Link's",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "jaguar",
+    "name": "Jaguar",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "jbs",
+    "name": "JBS",
+    "aliases": [],
+    "sector": "Food & Beverage",
+    "grade": "D"
+  },
+  {
+    "id": "jd-sports-fashion",
+    "name": "JD Sports Fashion",
+    "aliases": [],
+    "sector": "Apparel & Footwear",
+    "grade": "D"
+  },
+  {
+    "id": "jfrog",
+    "name": "JFrog",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "jifiti",
+    "name": "Jifiti",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "jo-malone",
+    "name": "Jo Malone",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "jolt",
+    "name": "Jolt",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "joyglee",
+    "name": "joy+glee",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "joytunes",
+    "name": "JoyTunes",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "juicy-fruit",
+    "name": "Juicy Fruit",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "k-health",
+    "name": "K Health",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "kadinlar-bilir",
+    "name": "Kadinlar Bilir",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "kaltura",
+    "name": "Kaltura",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "kan-tong",
+    "name": "Kan Tong",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "kape-technologies-previously-known-as-crossrider",
+    "name": "Kape Technologies, previously known as Crossrider",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "kayak",
+    "name": "Kayak",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "kellanova-formerly-kellogg",
+    "name": "Kellanova (formerly Kellogg)",
+    "aliases": [],
+    "sector": "Food & Beverage",
+    "grade": "D"
+  },
+  {
+    "id": "kemal-kukrer",
+    "name": "Kemal Kukrer",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "kenv",
+    "name": "Kenv",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "kenzo",
+    "name": "Kenzo",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "kerastase",
+    "name": "Kerastase",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "kering",
+    "name": "Kering",
+    "aliases": [],
+    "sector": "Apparel & Footwear",
+    "grade": "D"
+  },
+  {
+    "id": "kerry-group",
+    "name": "Kerry Group",
+    "aliases": [],
+    "sector": "Food & Beverage",
+    "grade": "F"
+  },
+  {
+    "id": "keter",
+    "name": "Keter",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "keurig-dr-pepper",
+    "name": "Keurig Dr Pepper",
+    "aliases": [],
+    "sector": "Food & Beverage",
+    "grade": "D"
+  },
+  {
+    "id": "kevins-natural-foods",
+    "name": "Kevin's Natural Foods",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "kevita",
+    "name": "Kevita",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "keyence",
+    "name": "Keyence",
+    "aliases": [],
+    "sector": "ICT",
+    "grade": "N/A"
+  },
+  {
+    "id": "kfc",
+    "name": "KFC",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "kiehls",
+    "name": "Kiehl's",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "kikkoman-corp",
+    "name": "Kikkoman Corp.",
+    "aliases": [],
+    "sector": "Food & Beverage",
+    "grade": "F"
+  },
+  {
+    "id": "kilian",
+    "name": "Kilian",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "kind",
+    "name": "Kind",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "king-solomon",
+    "name": "King Solomon",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "kinh-do",
+    "name": "Kinh Do",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "kitkat",
+    "name": "KitKat",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "kla-corp",
+    "name": "KLA Corp",
+    "aliases": [],
+    "sector": "ICT",
+    "grade": "F"
+  },
+  {
+    "id": "knorr",
+    "name": "Knorr",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "kohls",
+    "name": "Kohl's",
+    "aliases": [],
+    "sector": "Apparel & Footwear",
+    "grade": "F"
+  },
+  {
+    "id": "komodor",
+    "name": "Komodor",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "kraft-heinz",
+    "name": "Kraft Heinz",
+    "aliases": [],
+    "sector": "Food & Beverage",
+    "grade": "F"
+  },
+  {
+    "id": "krispy-kreme",
+    "name": "Krispy Kreme",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "kroger",
+    "name": "Kroger",
+    "aliases": [],
+    "sector": "Food & Beverage",
+    "grade": "D"
+  },
+  {
+    "id": "kryon-systems",
+    "name": "Kryon Systems",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "kvd-beauty",
+    "name": "KVD Beauty",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "kylie-cosmetics",
+    "name": "Kylie Cosmetics",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "kyocera",
+    "name": "Kyocera",
+    "aliases": [],
+    "sector": "ICT",
+    "grade": "F"
+  },
+  {
+    "id": "l-brands-inc",
+    "name": "L Brands, Inc.",
+    "aliases": [],
+    "sector": "Apparel & Footwear",
+    "grade": "C"
+  },
+  {
+    "id": "la-grande-epicerie-de-paris",
+    "name": "La Grande Epicerie De Paris",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "la-mer",
+    "name": "La Mer",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "la-roche-posay",
+    "name": "La Roche Posay",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "lab-series",
+    "name": "Lab Series",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "labour-party",
+    "name": "Labour party",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "lacta",
+    "name": "Lacta",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "lam-research",
+    "name": "Lam Research",
+    "aliases": [],
+    "sector": "ICT",
+    "grade": "F"
+  },
+  {
+    "id": "lancome",
+    "name": "Lancome",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "land-rover-range-rover",
+    "name": "Land Rover (Range Rover)",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "largan-precision",
+    "name": "Largan Precision",
+    "aliases": [],
+    "sector": "ICT",
+    "grade": "N/A"
+  },
+  {
+    "id": "lavazza",
+    "name": "Lavazza",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "le-bon-marche-rive-gauche",
+    "name": "Le Bon Marche Rive Gauche",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "le-chat",
+    "name": "Le chat",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "le-labo",
+    "name": "Le Labo",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "le-parisien",
+    "name": "Le Parisien",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "legal-general",
+    "name": "Legal & General",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "lemon-dou",
+    "name": "Lemon-Dou",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "lemonade",
+    "name": "Lemonade",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "lenor",
+    "name": "Lenor",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "les-echos",
+    "name": "Les Echos",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "levi-strauss",
+    "name": "Levi Strauss",
+    "aliases": [],
+    "sector": "Apparel & Footwear",
+    "grade": "D"
+  },
+  {
+    "id": "lg-electronics-part-of-lg-corp",
+    "name": "LG Electronics (part of LG Corp.)",
+    "aliases": [],
+    "sector": "ICT",
+    "grade": "F"
+  },
+  {
+    "id": "li-fung",
+    "name": "Li & Fung",
+    "aliases": [],
+    "sector": "Apparel & Footwear",
+    "grade": "D"
+  },
+  {
+    "id": "li-ning",
+    "name": "Li Ning",
+    "aliases": [],
+    "sector": "Apparel & Footwear",
+    "grade": "F"
+  },
+  {
+    "id": "lidl",
+    "name": "Lidl",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "life-savers",
+    "name": "Life savers",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "lifebuoy",
+    "name": "Lifebuoy",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "lifewtr",
+    "name": "LIFEWTR",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "lightico",
+    "name": "Lightico",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "lightricks",
+    "name": "Lightricks",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "lindt-spr\u00fcngli",
+    "name": "Lindt & Spr\u00fcngli",
+    "aliases": [],
+    "sector": "Food & Beverage",
+    "grade": "D"
+  },
+  {
+    "id": "lion",
+    "name": "Lion",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "lipton-iced-tea",
+    "name": "Lipton Iced Tea",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "lloyds-bank",
+    "name": "Lloyds Bank",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "loblaw-companies",
+    "name": "Loblaw Companies",
+    "aliases": [],
+    "sector": "Food & Beverage",
+    "grade": "F"
+  },
+  {
+    "id": "lockheed-martin",
+    "name": "Lockheed Martin",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "loctite",
+    "name": "Loctite",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "loewe",
+    "name": "Loewe",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "logitech",
+    "name": "Logitech",
+    "aliases": [],
+    "sector": "ICT",
+    "grade": "D"
+  },
+  {
+    "id": "logzio",
+    "name": "Logz.io",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "lojas-renner-sa",
+    "name": "Lojas Renner SA",
+    "aliases": [],
+    "sector": "Apparel & Footwear",
+    "grade": "D"
+  },
+  {
+    "id": "looza",
+    "name": "Looza",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "loreal-loreal",
+    "name": "Loreal / L'oreal",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "loro-piana",
+    "name": "Loro Piana",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "louis-vuitton",
+    "name": "Louis Vuitton",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "lpp-sp\u00f3\u0142ka-akcyjna",
+    "name": "LPP Sp\u00f3\u0142ka Akcyjna",
+    "aliases": [],
+    "sector": "Apparel & Footwear",
+    "grade": "D"
+  },
+  {
+    "id": "lu",
+    "name": "Lu",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "lululemon-athletica",
+    "name": "Lululemon Athletica",
+    "aliases": [],
+    "sector": "Apparel & Footwear",
+    "grade": "B"
+  },
+  {
+    "id": "lusha",
+    "name": "Lusha",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "luvs",
+    "name": "Luvs",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "luxshare-precision",
+    "name": "Luxshare Precision",
+    "aliases": [],
+    "sector": "ICT",
+    "grade": "F"
+  },
+  {
+    "id": "lvmh",
+    "name": "LVMH",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "lvmh-mo\u00ebt-hennessy-louis-vuitton",
+    "name": "LVMH Mo\u00ebt Hennessy \u2013 Louis Vuitton",
+    "aliases": [],
+    "sector": "Apparel & Footwear",
+    "grade": "F"
+  },
+  {
+    "id": "lynx",
+    "name": "Lynx",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "lysol",
+    "name": "Lysol",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "mac",
+    "name": "MAC",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "mac-cosmetics",
+    "name": "MAC Cosmetics",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "macys",
+    "name": "Macy's",
+    "aliases": [],
+    "sector": "Apparel & Footwear",
+    "grade": "F"
+  },
+  {
+    "id": "magen-david-adom",
+    "name": "Magen David Adom",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "maggi",
+    "name": "Maggi",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "magnum",
+    "name": "Magnum",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "magnum-ice-creams",
+    "name": "Magnum Ice Creams",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "maille",
+    "name": "Maille",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "maison-francis-kurkdjian",
+    "name": "Maison Francis KurkDjian",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "maison-margiela-fragrances",
+    "name": "Maison Margiela Fragrances",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "make-up-for-ever",
+    "name": "Make Up For Ever",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "malteasers",
+    "name": "Malteasers",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "manzanita-sol",
+    "name": "Manzanita Sol",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "mapme",
+    "name": "Mapme",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "marabou",
+    "name": "Marabou",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "marc-jacobs",
+    "name": "Marc Jacobs",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "marks-and-spencer-ms",
+    "name": "Marks and Spencer / M&S",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "marmite",
+    "name": "Marmite",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "mars",
+    "name": "Mars",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "masterfoods",
+    "name": "MasterFoods",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "maui-style",
+    "name": "Maui Style",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "maybeline",
+    "name": "Maybeline",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "maynards-bassetts",
+    "name": "Maynards Bassetts",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "mbda",
+    "name": "MBDA",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "mccormick-company",
+    "name": "McCormick & Company",
+    "aliases": [],
+    "sector": "Food & Beverage",
+    "grade": "F"
+  },
+  {
+    "id": "mcdonalds",
+    "name": "McDonalds",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "mead-johnson-nutrition-co",
+    "name": "Mead Johnson Nutrition Co",
+    "aliases": [],
+    "sector": "Food & Beverage",
+    "grade": "D"
+  },
+  {
+    "id": "meetup",
+    "name": "Meetup",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "meiji-holdings-co-ltd",
+    "name": "Meiji Holdings Co Ltd",
+    "aliases": [],
+    "sector": "Food & Beverage",
+    "grade": "F"
+  },
+  {
+    "id": "melio",
+    "name": "Melio",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "mellanox",
+    "name": "Mellanox",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "mercedes-benz",
+    "name": "Mercedes Benz",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "mesh-payments",
+    "name": "Mesh Payments",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "meta-mucil",
+    "name": "Meta Mucil",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "metro-inc",
+    "name": "Metro Inc.",
+    "aliases": [],
+    "sector": "Food & Beverage",
+    "grade": "F"
+  },
+  {
+    "id": "michael-kors",
+    "name": "Michael Kors",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "microban",
+    "name": "Microban",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "microchip-technology",
+    "name": "Microchip Technology",
+    "aliases": [],
+    "sector": "ICT",
+    "grade": "F"
+  },
+  {
+    "id": "micron-technology-inc",
+    "name": "Micron Technology Inc.",
+    "aliases": [],
+    "sector": "ICT",
+    "grade": "D"
+  },
+  {
+    "id": "microsoft",
+    "name": "Microsoft",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "D"
+  },
+  {
+    "id": "mikado",
+    "name": "Mikado",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "milkybar",
+    "name": "Milkybar",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "milkyway",
+    "name": "Milkyway",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "milo",
+    "name": "Milo",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "minute-maid",
+    "name": "Minute Maid",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "miracoli",
+    "name": "Miracoli",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "mirinda",
+    "name": "Mirinda",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "miss-vickies",
+    "name": "Miss Vickies",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "mixtiles",
+    "name": "Mixtiles",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "mms",
+    "name": "M&M's",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "mobileye",
+    "name": "Mobileye",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "moncler",
+    "name": "Moncler",
+    "aliases": [],
+    "sector": "Apparel & Footwear",
+    "grade": "F"
+  },
+  {
+    "id": "mondaycom",
+    "name": "Monday.com",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "mondelez",
+    "name": "Mondelez",
+    "aliases": [],
+    "sector": "Food & Beverage",
+    "grade": "D"
+  },
+  {
+    "id": "monster-energy",
+    "name": "Monster Energy",
+    "aliases": [],
+    "sector": "Food & Beverage",
+    "grade": "F"
+  },
+  {
+    "id": "monto",
+    "name": "Monto",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "moovit",
+    "name": "Moovit",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "moroccanoil",
+    "name": "MoroccanOil",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "motorola",
+    "name": "Motorola",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "motorola-solutions",
+    "name": "Motorola Solutions",
+    "aliases": [],
+    "sector": "ICT",
+    "grade": "F"
+  },
+  {
+    "id": "mountain-dew",
+    "name": "Mountain Dew",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "movenpick",
+    "name": "Movenpick",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "mowi-asa",
+    "name": "Mowi ASA",
+    "aliases": [],
+    "sector": "Food & Beverage",
+    "grade": "F"
+  },
+  {
+    "id": "moynat",
+    "name": "Moynat",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "mprest",
+    "name": "mPrest",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "mr-price-group-limited-mrp",
+    "name": "Mr Price Group Limited (\"MRP\")",
+    "aliases": [],
+    "sector": "Apparel & Footwear",
+    "grade": "D"
+  },
+  {
+    "id": "mrclean",
+    "name": "Mr.Clean",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "mtv",
+    "name": "MTV",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "mugler",
+    "name": "Mugler",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "mugler-beauty",
+    "name": "Mugler Beauty",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "munchies",
+    "name": "Munchies",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "murata-manufacturing",
+    "name": "Murata Manufacturing",
+    "aliases": [],
+    "sector": "ICT",
+    "grade": "D"
+  },
+  {
+    "id": "muscle-milk",
+    "name": "Muscle Milk",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "my-black-is-beautiful",
+    "name": "My Black Is Beautiful",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "myheritage",
+    "name": "MyHeritage",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "myinterview",
+    "name": "myInterview",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "myquest",
+    "name": "myQuest",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "naked-juice",
+    "name": "Naked Juice",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "nanit",
+    "name": "Nanit",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "native",
+    "name": "Native",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "natuchips",
+    "name": "NatuChips",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "natures-bakery",
+    "name": "Nature's Bakery",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "naturnes",
+    "name": "NaturNes",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "naura-technology",
+    "name": "NAURA Technology",
+    "aliases": [],
+    "sector": "ICT",
+    "grade": "N/A"
+  },
+  {
+    "id": "navina",
+    "name": "Navina",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "near-east",
+    "name": "Near East",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "nescafe",
+    "name": "Nescafe",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "nespresso",
+    "name": "Nespresso",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "nesquick",
+    "name": "Nesquick",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "nestea",
+    "name": "Nestea",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "nestl\u00e9",
+    "name": "Nestl\u00e9",
+    "aliases": [],
+    "sector": "Food & Beverage",
+    "grade": "C"
+  },
+  {
+    "id": "network-10",
+    "name": "Network 10",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "nexite",
+    "name": "Nexite",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "D"
+  },
+  {
+    "id": "nice-systems",
+    "name": "Nice Systems",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "D"
+  },
+  {
+    "id": "nickelodeon",
+    "name": "Nickelodeon",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "nido",
+    "name": "Nido",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "niely",
+    "name": "Niely",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "nike",
+    "name": "Nike",
+    "aliases": [],
+    "sector": "Apparel & Footwear",
+    "grade": "C"
+  },
+  {
+    "id": "ninjamas",
+    "name": "Ninjamas",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "nintendo",
+    "name": "Nintendo",
+    "aliases": [],
+    "sector": "ICT",
+    "grade": "D"
+  },
+  {
+    "id": "niod",
+    "name": "Niod",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "noble",
+    "name": "Noble",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "nokia",
+    "name": "Nokia",
+    "aliases": [],
+    "sector": "ICT",
+    "grade": "D"
+  },
+  {
+    "id": "nom-nom",
+    "name": "Nom Nom",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "noname-security",
+    "name": "Noname Security",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "nooncom",
+    "name": "Noon.com",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "nurofen",
+    "name": "Nurofen",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "nut-harvest",
+    "name": "Nut Harvest",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "nutro",
+    "name": "Nutro",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "nvidia",
+    "name": "Nvidia",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "D"
+  },
+  {
+    "id": "nxp-semiconductors",
+    "name": "NXP Semiconductors",
+    "aliases": [],
+    "sector": "ICT",
+    "grade": "B"
+  },
+  {
+    "id": "nyx",
+    "name": "Nyx",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "nyx-professional-makeup",
+    "name": "NYX Professional Makeup",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "oasis",
+    "name": "Oasis",
+    "aliases": [],
+    "sector": "Apparel & Footwear",
+    "grade": "D"
+  },
+  {
+    "id": "oboy",
+    "name": "O'boy",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "ocean-spray",
+    "name": "Ocean Spray",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "off-the-eaten-path",
+    "name": "Off The Eaten Path",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "officine-universelle-buly",
+    "name": "Officine Universelle Buly",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "ogx-beauty",
+    "name": "OGX Beauty",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "oikos",
+    "name": "Oikos",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "olay",
+    "name": "Olay",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "old-spice",
+    "name": "Old Spice",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "olehenriksen",
+    "name": "Olehenriksen",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "omo",
+    "name": "Omo",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "openai",
+    "name": "OpenAI",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "opentable",
+    "name": "Opentable",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "optimal",
+    "name": "Optimal+",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "optimove",
+    "name": "Optimove",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "oracle",
+    "name": "Oracle",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "oral-b",
+    "name": "Oral-B",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "orangina",
+    "name": "Orangina",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "orbit",
+    "name": "Orbit",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "orcam-technologies",
+    "name": "OrCam Technologies",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "oreo",
+    "name": "Oreo",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "origins",
+    "name": "Origins",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "orkid",
+    "name": "Orkid",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "ourcrowd",
+    "name": "OurCrowd",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "outbrain",
+    "name": "Outbrain",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "pagaya",
+    "name": "Pagaya",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "page-industries",
+    "name": "Page Industries",
+    "aliases": [],
+    "sector": "Apparel & Footwear",
+    "grade": "F"
+  },
+  {
+    "id": "pamesello",
+    "name": "Pamesello",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "pampers",
+    "name": "Pampers",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "panasonic",
+    "name": "Panasonic",
+    "aliases": [],
+    "sector": "ICT",
+    "grade": "F"
+  },
+  {
+    "id": "panoray",
+    "name": "Panoray",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "pantene",
+    "name": "Pantene",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "papaya-global",
+    "name": "Papaya Global",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "paramount",
+    "name": "Paramount+",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "paramount-network",
+    "name": "Paramount Network",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "paramount-television",
+    "name": "Paramount Television",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "pasta-roni",
+    "name": "Pasta Roni",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "patou",
+    "name": "Patou",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "pattex",
+    "name": "Pattex",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "payem",
+    "name": "PayEm",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "payoneer",
+    "name": "Payoneer",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "pdq",
+    "name": "PDQ",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "peace-tea",
+    "name": "Peace Tea",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "pearl-milling-company",
+    "name": "Pearl Milling Company",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "pecanai",
+    "name": "Pecan.ai",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "pedigree",
+    "name": "Pedigree",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "peerspot",
+    "name": "PeerSpot",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "peets-coffee",
+    "name": "Peet's Coffee",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "pepsico",
+    "name": "PepsiCo",
+    "aliases": [],
+    "sector": "Food & Beverage",
+    "grade": "C"
+  },
+  {
+    "id": "pepto-bismol",
+    "name": "Pepto Bismol",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "perfax",
+    "name": "Perfax",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "perfect-snacks",
+    "name": "Perfect Snacks",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "permitio",
+    "name": "Permit.io",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "perrier",
+    "name": "Perrier",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "persil",
+    "name": "Persil",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "philadelphia",
+    "name": "Philadelphia",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "pizza-hut",
+    "name": "Pizza Hut",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "placerai",
+    "name": "Placer.ai",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "playtika",
+    "name": "Playtika",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "pluto-tv",
+    "name": "Pluto TV",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "pop-tv",
+    "name": "Pop TV",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "popcorners",
+    "name": "PopCorners",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "popeyes",
+    "name": "Popeyes",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "popworks",
+    "name": "Popworks",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "pot-noodle",
+    "name": "Pot Noodle",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "pou-chen",
+    "name": "Pou Chen",
+    "aliases": [],
+    "sector": "Apparel & Footwear",
+    "grade": "F"
+  },
+  {
+    "id": "power-action",
+    "name": "Power Action",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "powerade",
+    "name": "Powerade",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "powerbar",
+    "name": "PowerBar",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "powtoon",
+    "name": "Powtoon",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "prada",
+    "name": "Prada",
+    "aliases": [],
+    "sector": "Apparel & Footwear",
+    "grade": "F"
+  },
+  {
+    "id": "prada-beauty",
+    "name": "Prada Beauty",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "pret-a-manger",
+    "name": "Pret-a-manger",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "prilosec",
+    "name": "Prilosec",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "primark-part-of-associated-british-foods",
+    "name": "Primark (part of Associated British Foods)",
+    "aliases": [],
+    "sector": "Apparel & Footwear",
+    "grade": "B"
+  },
+  {
+    "id": "prince",
+    "name": "Prince",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "pritt",
+    "name": "Pritt",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "procter-gamble",
+    "name": "Procter & Gamble",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "propel",
+    "name": "Propel",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "puffs",
+    "name": "Puffs",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "puma",
+    "name": "Puma",
+    "aliases": [],
+    "sector": "Apparel & Footwear",
+    "grade": "D"
+  },
+  {
+    "id": "pure-leaf",
+    "name": "Pure Leaf",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "pure-life",
+    "name": "Pure Life",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "purina",
+    "name": "Purina",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "pvh-phillips-van-heusen",
+    "name": "PVH (Phillips-Van Heusen)",
+    "aliases": [],
+    "sector": "Apparel & Footwear",
+    "grade": "C"
+  },
+  {
+    "id": "quaker",
+    "name": "Quaker",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "quaker-oats",
+    "name": "Quaker Oats",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "qualcomm",
+    "name": "Qualcomm",
+    "aliases": [],
+    "sector": "ICT",
+    "grade": "C"
+  },
+  {
+    "id": "quali",
+    "name": "Quali",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "quality-street",
+    "name": "Quality Street",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "qwak",
+    "name": "Qwak",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "radware",
+    "name": "Radware",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "ralph-lauren",
+    "name": "Ralph Lauren",
+    "aliases": [],
+    "sector": "Apparel & Footwear",
+    "grade": "C"
+  },
+  {
+    "id": "ralph-lauren-fragrances",
+    "name": "Ralph Lauren Fragrances",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "rani",
+    "name": "Rani",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "rapidapi",
+    "name": "RapidAPI",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "rapunzel",
+    "name": "Rapunzel",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "rapyd",
+    "name": "Rapyd",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "rare-beauty-by-selena-gomez",
+    "name": "Rare Beauty by Selena Gomez",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "ratiopharm",
+    "name": "Ratiopharm",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "raytheon",
+    "name": "Raytheon",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "rbs",
+    "name": "RBS",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "receive",
+    "name": "Receive",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "red-rock-dell",
+    "name": "Red Rock Dell",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "redis-labs",
+    "name": "Redis Labs",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "redoxon",
+    "name": "Redoxon",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "regatta-data",
+    "name": "Regatta Data",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "renesas-electronics",
+    "name": "Renesas Electronics",
+    "aliases": [],
+    "sector": "ICT",
+    "grade": "F"
+  },
+  {
+    "id": "rennie",
+    "name": "Rennie",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "rentalcarscom",
+    "name": "Rentalcars.com",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "repossi",
+    "name": "Repossi",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "rexona",
+    "name": "Rexona",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "rimowa",
+    "name": "Rimowa",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "rindex",
+    "name": "Rindex",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "riskified",
+    "name": "Riskified",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "ritual",
+    "name": "Ritual",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "ritz",
+    "name": "Ritz",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "river-island",
+    "name": "River Island",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "riversidefm",
+    "name": "Riverside.fm",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "rivery",
+    "name": "Rivery",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "rockstar",
+    "name": "Rockstar",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "rockstar-energy",
+    "name": "Rockstar Energy",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "rold-gold",
+    "name": "Rold Gold",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "royal",
+    "name": "Royal",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "royal-canin",
+    "name": "Royal Canin",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "royco",
+    "name": "Royco",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "rubson",
+    "name": "Rubson",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "ruffles",
+    "name": "Ruffles",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "rupert",
+    "name": "Rupert",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "ryohin-keikaku-co-ltd",
+    "name": "Ryohin Keikaku Co Ltd",
+    "aliases": [],
+    "sector": "Apparel & Footwear",
+    "grade": "F"
+  },
+  {
+    "id": "sablier",
+    "name": "Sablier",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "sabra",
+    "name": "Sabra",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "sabritas",
+    "name": "Sabritas",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "sabritones",
+    "name": "Sabritones",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "sadaf-foods",
+    "name": "Sadaf Foods",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "safebreach",
+    "name": "SafeBreach",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "safeguard",
+    "name": "Safeguard",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "sainsburys",
+    "name": "Sainsbury's",
+    "aliases": [],
+    "sector": "Food & Beverage",
+    "grade": "D"
+  },
+  {
+    "id": "sales-force",
+    "name": "Sales Force",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "salt-security",
+    "name": "Salt Security",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "salto",
+    "name": "Salto",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "salvatore-ferragamo-spa",
+    "name": "Salvatore Ferragamo S.p.A",
+    "aliases": [],
+    "sector": "Apparel & Footwear",
+    "grade": "F"
+  },
+  {
+    "id": "samsung-electronics",
+    "name": "Samsung Electronics",
+    "aliases": [],
+    "sector": "ICT",
+    "grade": "C"
+  },
+  {
+    "id": "san-miguel-food-and-beverage-smfb-part-of-san-miguel-corporation-smc",
+    "name": "San Miguel Food and Beverage (SMFB) (part of San Miguel Corporation - SMC)",
+    "aliases": [],
+    "sector": "Food & Beverage",
+    "grade": "F"
+  },
+  {
+    "id": "sanpelegrino",
+    "name": "Sanpelegrino",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "sap",
+    "name": "SAP",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "saputo-inc",
+    "name": "Saputo Inc",
+    "aliases": [],
+    "sector": "Food & Beverage",
+    "grade": "F"
+  },
+  {
+    "id": "scholl",
+    "name": "Scholl",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "schwarzkopf",
+    "name": "Schwarzkopf",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "schweppes",
+    "name": "Schweppes",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "scotia-bank",
+    "name": "Scotia Bank",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "seagate-technology",
+    "name": "Seagate Technology",
+    "aliases": [],
+    "sector": "ICT",
+    "grade": "D"
+  },
+  {
+    "id": "secret",
+    "name": "Secret",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "seeds-of-change",
+    "name": "Seeds of Change",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "semiconductor-manufacturing-international-corporation-smic",
+    "name": "Semiconductor Manufacturing International Corporation (SMIC)",
+    "aliases": [],
+    "sector": "ICT",
+    "grade": "F"
+  },
+  {
+    "id": "sentinelone",
+    "name": "SentinelOne",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "sentra",
+    "name": "Sentra",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "sephora",
+    "name": "Sephora",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "seven-i",
+    "name": "Seven & i",
+    "aliases": [],
+    "sector": "Food & Beverage",
+    "grade": "D"
+  },
+  {
+    "id": "seven-seas",
+    "name": "Seven Seas",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "shams",
+    "name": "Shams",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "sheba",
+    "name": "Sheba",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "shenzhou-international-group-holdings",
+    "name": "Shenzhou International Group Holdings",
+    "aliases": [],
+    "sector": "Apparel & Footwear",
+    "grade": "F"
+  },
+  {
+    "id": "shimamura",
+    "name": "Shimamura",
+    "aliases": [],
+    "sector": "Apparel & Footwear",
+    "grade": "N/A"
+  },
+  {
+    "id": "showtime-networks-inc",
+    "name": "Showtime Networks Inc.",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "shredded-wheat",
+    "name": "Shredded Wheat",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "shreddies",
+    "name": "Shreddies",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "shu-uemura",
+    "name": "Shu Uemura",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "siam-makro-public-co-ltd",
+    "name": "Siam Makro Public Co. Ltd",
+    "aliases": [],
+    "sector": "Food & Beverage",
+    "grade": "F"
+  },
+  {
+    "id": "siemens",
+    "name": "Siemens",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "sierra-mist",
+    "name": "Sierra Mist",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "signal",
+    "name": "Signal",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "silan",
+    "name": "Silan",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "silverfort",
+    "name": "Silverfort",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "similarweb",
+    "name": "Similarweb",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "simply",
+    "name": "Simply",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "simply-beverages",
+    "name": "Simply Beverages",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "sirma",
+    "name": "Sirma",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "sisense",
+    "name": "Sisense",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "sk-hynix",
+    "name": "SK Hynix",
+    "aliases": [],
+    "sector": "ICT",
+    "grade": "F"
+  },
+  {
+    "id": "skechers",
+    "name": "Skechers",
+    "aliases": [],
+    "sector": "Apparel & Footwear",
+    "grade": "F"
+  },
+  {
+    "id": "skii",
+    "name": "Skii",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "skims",
+    "name": "Skims",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "skinbetter-science",
+    "name": "SkinBetter Science",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "skinceuticals",
+    "name": "SkinCeuticals",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "skittles",
+    "name": "Skittles",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "skyworks-solutions",
+    "name": "Skyworks Solutions",
+    "aliases": [],
+    "sector": "ICT",
+    "grade": "D"
+  },
+  {
+    "id": "smartfood",
+    "name": "Smartfood",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "smarties",
+    "name": "Smarties",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "smartwater",
+    "name": "Smartwater",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "smashbox",
+    "name": "smashbox",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "smithsonian-channeltm",
+    "name": "Smithsonian Channel(tm)",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "smuckers-the-j-m-smucker-company",
+    "name": "Smucker's (The J. M. Smucker Company)",
+    "aliases": [],
+    "sector": "Food & Beverage",
+    "grade": "D"
+  },
+  {
+    "id": "snack-a-jacks",
+    "name": "Snack a Jacks",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "snickers",
+    "name": "Snickers",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "snyk",
+    "name": "Snyk",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "sobe",
+    "name": "Sobe",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "sodastream",
+    "name": "SodaStream",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "solaredge",
+    "name": "SolarEdge",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "soluto",
+    "name": "Soluto",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "sony",
+    "name": "Sony",
+    "aliases": [],
+    "sector": "ICT",
+    "grade": "D"
+  },
+  {
+    "id": "soulboost",
+    "name": "Soulboost",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "sour-patch-kids",
+    "name": "Sour Patch Kids",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "spotim-now-openweb",
+    "name": "Spot.IM (now OpenWeb)",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "sprite",
+    "name": "Sprite",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "spyglass-media-group",
+    "name": "Spyglass Media Group",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "stacys",
+    "name": "Stacy's",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "standard-life",
+    "name": "Standard Life",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "starboard-cruise-services",
+    "name": "Starboard Cruise Services",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "starbucks",
+    "name": "Starbucks",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "starry",
+    "name": "Starry",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "startio",
+    "name": "Start.io",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "stella-by-stella-mccartney",
+    "name": "STELLA by Stella McCartney",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "stella-mccartney",
+    "name": "Stella McCartney",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "stellar-cyber",
+    "name": "Stellar Cyber",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "stmicroelectronics",
+    "name": "STMicroelectronics",
+    "aliases": [],
+    "sector": "ICT",
+    "grade": "D"
+  },
+  {
+    "id": "stmnt-statement-grooming-goods",
+    "name": "STMNT STATEMENT GROOMING GOODS",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "storedot",
+    "name": "StoreDot",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "strepsils",
+    "name": "Strepsils",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "stride",
+    "name": "Stride",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "stuff-that-works",
+    "name": "Stuff That Works",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "stylenanda",
+    "name": "StyleNanda",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "substrata",
+    "name": "Substrata",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "sudocrem",
+    "name": "Sudocrem",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "sunchips",
+    "name": "SunChips",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "sunlight",
+    "name": "Sunlight",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "sunny-optical",
+    "name": "Sunny Optical",
+    "aliases": [],
+    "sector": "ICT",
+    "grade": "F"
+  },
+  {
+    "id": "sunsilk",
+    "name": "Sunsilk",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "suntory-beverage-food-limited",
+    "name": "Suntory Beverage & Food Limited",
+    "aliases": [],
+    "sector": "Food & Beverage",
+    "grade": "F"
+  },
+  {
+    "id": "supradyn",
+    "name": "Supradyn",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "surf",
+    "name": "Surf",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "suzi-wan",
+    "name": "Suzi Wan",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "sweep",
+    "name": "Sweep",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "sweet-earth",
+    "name": "Sweet Earth",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "swiffer",
+    "name": "Swiffer",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "swimm",
+    "name": "Swimm",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "swoodoo",
+    "name": "Swoodoo",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "syoss",
+    "name": "Syoss",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "sysaid-technologies",
+    "name": "SysAid Technologies",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "tabnine",
+    "name": "Tabnine",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "taboola",
+    "name": "Taboola",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "taco-bell",
+    "name": "Taco Bell",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "tag-heuer",
+    "name": "Tag Heuer",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "taiwan-semiconductor-manufacturing-tsmc",
+    "name": "Taiwan Semiconductor Manufacturing (TSMC)",
+    "aliases": [],
+    "sector": "ICT",
+    "grade": "C"
+  },
+  {
+    "id": "takami",
+    "name": "TAKAMI",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "talon",
+    "name": "Talon",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "tampax",
+    "name": "Tampax",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "tang",
+    "name": "Tang",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "tapestry-formerly-coach",
+    "name": "Tapestry (Formerly Coach)",
+    "aliases": [],
+    "sector": "Apparel & Footwear",
+    "grade": "F"
+  },
+  {
+    "id": "tasty-bite",
+    "name": "Tasty Bite",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "tates-bake-shop",
+    "name": "Tate's Bake Shop",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "tazo",
+    "name": "Tazo",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "te-connectivity",
+    "name": "TE Connectivity",
+    "aliases": [],
+    "sector": "ICT",
+    "grade": "F"
+  },
+  {
+    "id": "ted-baker",
+    "name": "Ted Baker",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "telefe",
+    "name": "Telefe",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "temptations",
+    "name": "Temptations",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "teroson",
+    "name": "Teroson",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "tesco",
+    "name": "Tesco",
+    "aliases": [],
+    "sector": "Food & Beverage",
+    "grade": "D"
+  },
+  {
+    "id": "texas-instruments",
+    "name": "Texas Instruments",
+    "aliases": [],
+    "sector": "ICT",
+    "grade": "C"
+  },
+  {
+    "id": "the-art-of-shaving",
+    "name": "The Art Of Shaving",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "the-cw-television-network",
+    "name": "THE CW TELEVISION NETWORK",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "the-habit-burger-grill",
+    "name": "The Habit Burger Grill",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "the-ordinary",
+    "name": "The Ordinary",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "thetaray",
+    "name": "ThetaRay",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "this-is-l",
+    "name": "This is L",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "thomy",
+    "name": "Thomy",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "tiffany-co",
+    "name": "Tiffany & CO",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "tiger",
+    "name": "Tiger",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "tim-hortons",
+    "name": "Tim Hortons",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "timeos",
+    "name": "TimeOS",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "tipalti",
+    "name": "Tipalti",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "tjx",
+    "name": "TJX",
+    "aliases": [],
+    "sector": "Apparel & Footwear",
+    "grade": "F"
+  },
+  {
+    "id": "toblerone",
+    "name": "Toblerone",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "tokyo-electron",
+    "name": "Tokyo Electron",
+    "aliases": [],
+    "sector": "ICT",
+    "grade": "D"
+  },
+  {
+    "id": "tolstoy",
+    "name": "Tolstoy",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "tom-ford",
+    "name": "Tom Ford",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "tom-ford-beauty",
+    "name": "Tom Ford Beauty",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "too-faced",
+    "name": "Too Faced",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "topo-chico",
+    "name": "Topo Chico",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "tory-burch",
+    "name": "Tory Burch",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "tostitos",
+    "name": "Tostitos",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "trendemon",
+    "name": "Trendemon",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "trent-ltd",
+    "name": "Trent Ltd.",
+    "aliases": [],
+    "sector": "Apparel & Footwear",
+    "grade": "N/A"
+  },
+  {
+    "id": "tresemme",
+    "name": "Tresemme",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "trident",
+    "name": "Trident",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "trigo",
+    "name": "Trigo",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "triplewhale",
+    "name": "TripleWhale",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "triscuit",
+    "name": "Triscuit",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "tropicana",
+    "name": "Tropicana",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "tropico",
+    "name": "Tropico",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "tru-fru",
+    "name": "Tru Fru",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "trullion",
+    "name": "Trullion",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "tuc",
+    "name": "Tuc",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "tufin",
+    "name": "Tufin",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "turkuaz-su",
+    "name": "Turkuaz Su",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "tursil",
+    "name": "Tursil",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "tv-land",
+    "name": "TV Land",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "twix",
+    "name": "Twix",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "tyson",
+    "name": "Tyson",
+    "aliases": [],
+    "sector": "Food & Beverage",
+    "grade": "F"
+  },
+  {
+    "id": "under-armour",
+    "name": "Under Armour",
+    "aliases": [],
+    "sector": "Apparel & Footwear",
+    "grade": "D"
+  },
+  {
+    "id": "unicef",
+    "name": "Unicef",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "unilever",
+    "name": "Unilever",
+    "aliases": [],
+    "sector": "Food & Beverage",
+    "grade": "D"
+  },
+  {
+    "id": "unit",
+    "name": "Unit",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "urban-decay",
+    "name": "Urban Decay",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "valentino-beauty",
+    "name": "Valentino Beauty",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "vanish",
+    "name": "Vanish",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "vaseline",
+    "name": "Vaseline",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "vayavision",
+    "name": "Vayavision",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "vayyar-imaging",
+    "name": "Vayyar Imaging",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "veet",
+    "name": "Veet",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "venus",
+    "name": "Venus",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "verbit",
+    "name": "Verbit",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "verily",
+    "name": "Verily",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "vf-corporation",
+    "name": "VF Corporation",
+    "aliases": [],
+    "sector": "Apparel & Footwear",
+    "grade": "C"
+  },
+  {
+    "id": "viber",
+    "name": "Viber",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "vicks",
+    "name": "Vicks",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "victorias-secret",
+    "name": "Victorias Secret",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "vidcon",
+    "name": "VidCon",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "vietnam-dairy-products-jsc",
+    "name": "Vietnam Dairy Products JSC",
+    "aliases": [],
+    "sector": "Food & Beverage",
+    "grade": "N/A"
+  },
+  {
+    "id": "viktor-rolf",
+    "name": "Viktor & Rolf",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "viktor-rolf-beauty",
+    "name": "Viktor & Rolf Beauty",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "visa",
+    "name": "Visa",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "vitalinea",
+    "name": "Vitalinea",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "vitaminwater",
+    "name": "vitaminwater",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "vittel",
+    "name": "Vittel",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "volvic",
+    "name": "Volvic",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "volvo-heavy-machinery",
+    "name": "Volvo Heavy Machinery",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "walkers",
+    "name": "Walkers",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "walkme",
+    "name": "Walkme",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "walls-ice-creams",
+    "name": "Walls Ice Creams",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "walmart",
+    "name": "Walmart",
+    "aliases": [],
+    "sector": "ICT",
+    "grade": "D"
+  },
+  {
+    "id": "walnut",
+    "name": "Walnut",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "want-want-china",
+    "name": "Want Want China",
+    "aliases": [],
+    "sector": "Food & Beverage",
+    "grade": "N/A"
+  },
+  {
+    "id": "waymo",
+    "name": "Waymo",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "waze",
+    "name": "Waze",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "wells-fargo",
+    "name": "Wells Fargo",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "western-digital",
+    "name": "Western Digital",
+    "aliases": [],
+    "sector": "ICT",
+    "grade": "D"
+  },
+  {
+    "id": "wh-group",
+    "name": "WH Group",
+    "aliases": [],
+    "sector": "Food & Beverage",
+    "grade": "N/A"
+  },
+  {
+    "id": "wheat-thins",
+    "name": "Wheat Thins",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "whiskas",
+    "name": "Whiskas",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "wilco",
+    "name": "Wilco",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "wilmar-international",
+    "name": "Wilmar International",
+    "aliases": [],
+    "sector": "Food & Beverage",
+    "grade": "C"
+  },
+  {
+    "id": "windward",
+    "name": "Windward",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "winterfresh",
+    "name": "Winterfresh",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "witte-reus",
+    "name": "Witte Reus",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "wiz",
+    "name": "Wiz",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "woolite",
+    "name": "Woolite",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "woolworths",
+    "name": "Woolworths",
+    "aliases": [],
+    "sector": "Food & Beverage",
+    "grade": "F"
+  },
+  {
+    "id": "wrigleys",
+    "name": "Wrigley's",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "wrigleys-extra",
+    "name": "Wrigley's Extra",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "wrigleys-spearmint",
+    "name": "Wrigley's Spearmint",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "xiaomi",
+    "name": "Xiaomi",
+    "aliases": [],
+    "sector": "ICT",
+    "grade": "N/A"
+  },
+  {
+    "id": "yachak",
+    "name": "Yachak",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "yakult-honsha-co-ltd",
+    "name": "Yakult Honsha Co Ltd",
+    "aliases": [],
+    "sector": "Food & Beverage",
+    "grade": "F"
+  },
+  {
+    "id": "yasminelle",
+    "name": "Yasminelle",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "yedigun",
+    "name": "Yedigun",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "yotpo",
+    "name": "Yotpo",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "youngor-group",
+    "name": "Youngor Group",
+    "aliases": [],
+    "sector": "Apparel & Footwear",
+    "grade": "N/A"
+  },
+  {
+    "id": "youth-to-the-people",
+    "name": "Youth to the people",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "youtube",
+    "name": "Youtube",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "yue-yuen-part-of-pou-chen-group",
+    "name": "Yue Yuen (part of Pou Chen Group)",
+    "aliases": [],
+    "sector": "Apparel & Footwear",
+    "grade": "F"
+  },
+  {
+    "id": "yuesai",
+    "name": "Yuesai",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "yum-foods",
+    "name": "Yum Foods",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "yumyum",
+    "name": "YumYum",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "yves-saint-laurent-beauty-ysl-beauty",
+    "name": "Yves Saint Laurent Beauty / YSL Beauty",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "zalando-se",
+    "name": "Zalando SE",
+    "aliases": [],
+    "sector": "Apparel & Footwear",
+    "grade": "D"
+  },
+  {
+    "id": "zara",
+    "name": "Zara",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "zebra-medical-vision",
+    "name": "Zebra Medical Vision",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "zenith",
+    "name": "Zenith",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "zesty",
+    "name": "Zesty",
+    "aliases": [],
+    "sector": "Technology",
+    "grade": "F"
+  },
+  {
+    "id": "zevo",
+    "name": "Zevo",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "zhejiang-semir-garment",
+    "name": "Zhejiang Semir Garment",
+    "aliases": [],
+    "sector": "Apparel & Footwear",
+    "grade": "N/A"
+  },
+  {
+    "id": "zte",
+    "name": "ZTE",
+    "aliases": [],
+    "sector": "ICT",
+    "grade": "F"
+  },
+  {
+    "id": "zwitsal",
+    "name": "Zwitsal",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  },
+  {
+    "id": "zzzquil",
+    "name": "ZzzQuil",
+    "aliases": [],
+    "sector": null,
+    "grade": "F"
+  }
+]
