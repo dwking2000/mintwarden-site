@@ -245,7 +245,7 @@
       </p>
 
       <!-- Email Capture -->
-      <form action="https://formspree.io/f/mzdkewge" method="POST" class="flex flex-col sm:flex-row gap-3 max-w-md mx-auto">
+      <form class="waitlist-form flex flex-col sm:flex-row gap-3 max-w-md mx-auto">
         <input
           type="email"
           name="email"
@@ -260,8 +260,8 @@
           Get Early Access
         </button>
       </form>
-
-      <p class="text-xs text-white/25 mt-4">No spam. We'll notify you when we launch.</p>
+      <p class="form-status text-sm mt-4 hidden"></p>
+      <p class="form-hint text-xs text-white/25 mt-4">No spam. We'll notify you when we launch.</p>
 
       <!-- Scroll indicator -->
       <div class="mt-16 animate-bounce">
@@ -501,7 +501,7 @@
         </p>
 
         <!-- Email Capture -->
-        <form action="https://formspree.io/f/mzdkewge" method="POST" class="flex flex-col sm:flex-row gap-3 max-w-md mx-auto">
+        <form class="waitlist-form flex flex-col sm:flex-row gap-3 max-w-md mx-auto">
           <input
             type="email"
             name="email"
@@ -516,7 +516,8 @@
             Join Waitlist
           </button>
         </form>
-        <p class="text-xs text-white/20 mt-4">Free. No credit card required.</p>
+        <p class="form-status text-sm mt-4 hidden"></p>
+        <p class="form-hint text-xs text-white/20 mt-4">Free. No credit card required.</p>
       </div>
     </div>
   </section>
@@ -588,6 +589,44 @@
     // Close mobile nav on escape key
     document.addEventListener('keydown', (e) => {
       if (e.key === 'Escape') mobileNav.classList.remove('open');
+    });
+
+    // Waitlist form submission via AJAX
+    document.querySelectorAll('.waitlist-form').forEach(form => {
+      form.addEventListener('submit', async (e) => {
+        e.preventDefault();
+        const email = form.querySelector('input[name="email"]').value;
+        const btn = form.querySelector('button');
+        const status = form.parentElement.querySelector('.form-status');
+        const hint = form.parentElement.querySelector('.form-hint');
+
+        btn.disabled = true;
+        btn.textContent = 'Sending...';
+
+        try {
+          const res = await fetch('https://formspree.io/f/mzdkewge', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+            body: JSON.stringify({ email }),
+          });
+          const data = await res.json();
+
+          if (data.ok) {
+            status.textContent = "You're on the list! We'll be in touch.";
+            status.className = 'form-status text-sm mt-4 text-mint-400';
+            hint.classList.add('hidden');
+            form.reset();
+            btn.textContent = 'Joined!';
+          } else {
+            throw new Error(data.errors?.map(e => e.message).join(', ') || 'Submission failed');
+          }
+        } catch (err) {
+          status.textContent = 'Something went wrong. Please try again.';
+          status.className = 'form-status text-sm mt-4 text-red-400';
+          btn.disabled = false;
+          btn.textContent = 'Try Again';
+        }
+      });
     });
   </script>
 </body>
