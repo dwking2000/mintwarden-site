@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MintWarden — Know Where Your Money Really Goes</title>
+  <meta name="description" content="MintWarden uses AI to analyze your spending against ethical criteria. Discover which corporations you fund and find better alternatives.">
+  <meta property="og:title" content="MintWarden — Ethical Spending Intelligence">
+  <meta property="og:description" content="AI-powered analysis of where your money goes and who it supports.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://mintwarden.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=DM+Sans:ital,opsz,wght@0,9..40,300..700;1,9..40,300..700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            mint: {
+              50: '#edfff8',
+              100: '#d5ffed',
+              200: '#aeffdb',
+              300: '#70ffc2',
+              400: '#2bfda1',
+              500: '#00e67f',
+              600: '#00bf66',
+              700: '#009553',
+              800: '#067544',
+              900: '#075f3a',
+              950: '#00361f',
+            },
+            dark: {
+              950: '#050a08',
+              900: '#0a1210',
+              800: '#0f1c17',
+              700: '#162820',
+              600: '#1e3a2e',
+            },
+          },
+          fontFamily: {
+            display: ['Fraunces', 'Georgia', 'serif'],
+            body: ['DM Sans', 'system-ui', 'sans-serif'],
+          },
+        },
+      },
+    }
+  </script>
+  <style>
+    /* Grain overlay */
+    .grain::after {
+      content: '';
+      position: fixed;
+      top: -50%;
+      left: -50%;
+      right: -50%;
+      bottom: -50%;
+      width: 200%;
+      height: 200%;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+      pointer-events: none;
+      z-index: 9999;
+      opacity: 0.5;
+    }
+
+    /* Pulse animation for hero */
+    @keyframes ripple {
+      0% { transform: scale(0.8); opacity: 0.6; }
+      100% { transform: scale(2.5); opacity: 0; }
+    }
+    @keyframes ripple-slow {
+      0% { transform: scale(0.6); opacity: 0.4; }
+      100% { transform: scale(3); opacity: 0; }
+    }
+    .ripple-ring {
+      animation: ripple 4s ease-out infinite;
+    }
+    .ripple-ring-2 {
+      animation: ripple 4s ease-out 1.3s infinite;
+    }
+    .ripple-ring-3 {
+      animation: ripple-slow 5s ease-out 0.6s infinite;
+    }
+
+    /* Fade-in on scroll */
+    .reveal {
+      opacity: 0;
+      transform: translateY(30px);
+      transition: opacity 0.8s ease, transform 0.8s ease;
+    }
+    .reveal.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* Staggered children */
+    .reveal-stagger > .reveal:nth-child(1) { transition-delay: 0s; }
+    .reveal-stagger > .reveal:nth-child(2) { transition-delay: 0.15s; }
+    .reveal-stagger > .reveal:nth-child(3) { transition-delay: 0.3s; }
+    .reveal-stagger > .reveal:nth-child(4) { transition-delay: 0.45s; }
+
+    /* Smooth gradient text */
+    .text-gradient {
+      background: linear-gradient(135deg, #00e67f 0%, #70ffc2 50%, #2bfda1 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    /* Glow effect on cards */
+    .card-glow {
+      position: relative;
+    }
+    .card-glow::before {
+      content: '';
+      position: absolute;
+      inset: -1px;
+      border-radius: inherit;
+      background: linear-gradient(135deg, rgba(0,230,127,0.2), transparent 50%);
+      z-index: -1;
+      opacity: 0;
+      transition: opacity 0.4s ease;
+    }
+    .card-glow:hover::before {
+      opacity: 1;
+    }
+
+    /* Custom scrollbar */
+    ::-webkit-scrollbar { width: 8px; }
+    ::-webkit-scrollbar-track { background: #0a1210; }
+    ::-webkit-scrollbar-thumb { background: #1e3a2e; border-radius: 4px; }
+    ::-webkit-scrollbar-thumb:hover { background: #009553; }
+
+    /* Mobile nav */
+    .mobile-nav {
+      transform: translateX(100%);
+      transition: transform 0.3s ease;
+    }
+    .mobile-nav.open {
+      transform: translateX(0);
+    }
+
+    /* Score bar animation */
+    @keyframes score-fill {
+      from { width: 0; }
+    }
+    .score-bar {
+      animation: score-fill 1.5s ease-out forwards;
+    }
+
+    /* Floating particles */
+    @keyframes float-up {
+      0% { transform: translateY(0) scale(1); opacity: 0.3; }
+      50% { opacity: 0.6; }
+      100% { transform: translateY(-100vh) scale(0.5); opacity: 0; }
+    }
+  </style>
+</head>
+<body class="grain bg-dark-950 text-white font-body antialiased overflow-x-hidden">
+
+  <!-- === NAVBAR === -->
+  <nav id="navbar" class="fixed top-0 w-full z-50 transition-all duration-300">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+      <!-- Logo -->
+      <a href="#" class="flex items-center gap-2 group">
+        <svg class="w-8 h-8" viewBox="0 0 32 32" fill="none">
+          <circle cx="16" cy="16" r="14" stroke="currentColor" stroke-width="1.5" class="text-mint-400"/>
+          <path d="M10 17.5C10 17.5 12.5 21 16 21C19.5 21 22 17.5 22 17.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" class="text-mint-400"/>
+          <circle cx="16" cy="13" r="3" fill="currentColor" class="text-mint-400"/>
+        </svg>
+        <span class="font-display text-xl font-semibold tracking-tight">MintWarden</span>
+      </a>
+
+      <!-- Desktop Nav -->
+      <div class="hidden md:flex items-center gap-8">
+        <a href="#features" class="text-sm text-white/60 hover:text-mint-400 transition-colors">Features</a>
+        <a href="#how-it-works" class="text-sm text-white/60 hover:text-mint-400 transition-colors">How It Works</a>
+        <a href="#why" class="text-sm text-white/60 hover:text-mint-400 transition-colors">Why MintWarden</a>
+        <a href="#waitlist" class="text-sm font-medium bg-mint-500 text-dark-950 px-5 py-2 rounded-full hover:bg-mint-400 transition-colors">
+          Join Waitlist
+        </a>
+      </div>
+
+      <!-- Mobile Hamburger -->
+      <button id="menu-toggle" class="md:hidden text-white/80 hover:text-mint-400 transition-colors" aria-label="Open menu">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+        </svg>
+      </button>
+    </div>
+
+    <!-- Mobile Nav Panel -->
+    <div id="mobile-nav" class="mobile-nav fixed inset-y-0 right-0 w-72 bg-dark-900/98 backdrop-blur-lg border-l border-white/5 p-8 md:hidden">
+      <button id="menu-close" class="absolute top-5 right-5 text-white/60 hover:text-mint-400" aria-label="Close menu">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+        </svg>
+      </button>
+      <div class="flex flex-col gap-6 mt-12">
+        <a href="#features" class="text-lg text-white/70 hover:text-mint-400 transition-colors nav-link">Features</a>
+        <a href="#how-it-works" class="text-lg text-white/70 hover:text-mint-400 transition-colors nav-link">How It Works</a>
+        <a href="#why" class="text-lg text-white/70 hover:text-mint-400 transition-colors nav-link">Why MintWarden</a>
+        <a href="#waitlist" class="mt-4 text-center font-medium bg-mint-500 text-dark-950 px-5 py-3 rounded-full hover:bg-mint-400 transition-colors nav-link">
+          Join Waitlist
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- === HERO === -->
+  <section class="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
+    <!-- Background gradient -->
+    <div class="absolute inset-0 bg-gradient-to-b from-dark-950 via-dark-900 to-dark-800"></div>
+
+    <!-- Ripple visualization -->
+    <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] pointer-events-none">
+      <div class="ripple-ring absolute inset-0 rounded-full border border-mint-500/20"></div>
+      <div class="ripple-ring-2 absolute inset-0 rounded-full border border-mint-400/15"></div>
+      <div class="ripple-ring-3 absolute inset-0 rounded-full border border-mint-300/10"></div>
+      <div class="absolute inset-0 m-auto w-3 h-3 rounded-full bg-mint-400/60"></div>
+    </div>
+
+    <!-- Floating accent shapes -->
+    <div class="absolute top-20 left-[10%] w-64 h-64 rounded-full bg-mint-500/5 blur-3xl"></div>
+    <div class="absolute bottom-20 right-[10%] w-96 h-96 rounded-full bg-mint-600/5 blur-3xl"></div>
+
+    <div class="relative z-10 max-w-4xl mx-auto px-6 text-center">
+      <!-- Eyebrow -->
+      <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-mint-500/20 bg-mint-500/5 mb-8">
+        <span class="w-1.5 h-1.5 rounded-full bg-mint-400 animate-pulse"></span>
+        <span class="text-sm text-mint-300 font-medium tracking-wide">Early Access — Join the Waitlist</span>
+      </div>
+
+      <!-- Headline -->
+      <h1 class="font-display text-5xl sm:text-6xl md:text-7xl font-bold leading-[1.05] tracking-tight mb-6">
+        Know where your<br>
+        money <span class="text-gradient italic">really</span> goes
+      </h1>
+
+      <!-- Subheadline -->
+      <p class="text-lg sm:text-xl text-white/50 max-w-2xl mx-auto mb-10 leading-relaxed">
+        MintWarden connects to your bank and uses AI to reveal the ethics behind every dollar you spend — sustainability, labor, politics, and more.
+        <span class="text-white/70">So you can finally vote with your wallet.</span>
+      </p>
+
+      <!-- Email Capture -->
+      <form action="https://formspree.io/f/PLACEHOLDER" method="POST" class="flex flex-col sm:flex-row gap-3 max-w-md mx-auto">
+        <input
+          type="email"
+          name="email"
+          required
+          placeholder="you@email.com"
+          class="flex-1 px-5 py-3.5 rounded-full bg-white/5 border border-white/10 text-white placeholder-white/30 focus:outline-none focus:border-mint-500/50 focus:bg-white/[0.07] transition-all text-sm"
+        >
+        <button
+          type="submit"
+          class="px-7 py-3.5 rounded-full bg-mint-500 text-dark-950 font-semibold text-sm hover:bg-mint-400 hover:shadow-lg hover:shadow-mint-500/20 transition-all whitespace-nowrap"
+        >
+          Get Early Access
+        </button>
+      </form>
+
+      <p class="text-xs text-white/25 mt-4">No spam. We'll notify you when we launch.</p>
+
+      <!-- Scroll indicator -->
+      <div class="mt-16 animate-bounce">
+        <svg class="w-5 h-5 mx-auto text-white/20" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"/>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- === PROBLEM === -->
+  <section class="relative py-28 sm:py-36 overflow-hidden">
+    <div class="absolute inset-0 bg-gradient-to-b from-dark-800 to-dark-900"></div>
+
+    <div class="relative z-10 max-w-5xl mx-auto px-6">
+      <div class="reveal max-w-3xl">
+        <p class="text-mint-400 font-display text-lg mb-4 tracking-wide">The uncomfortable truth</p>
+        <h2 class="font-display text-3xl sm:text-4xl md:text-5xl font-bold leading-tight mb-8">
+          Every swipe funds<br class="hidden sm:block"> someone's agenda.
+        </h2>
+        <p class="text-white/45 text-lg leading-relaxed max-w-2xl mb-12">
+          Last year, you made thousands of transactions. Each one put money in the pocket of a corporation — and you have almost no idea what those corporations do with it.
+        </p>
+      </div>
+
+      <!-- Stats / Impact -->
+      <div class="reveal-stagger grid sm:grid-cols-3 gap-6 mt-4">
+        <div class="reveal p-6 rounded-2xl bg-white/[0.03] border border-white/[0.06]">
+          <div class="font-display text-4xl font-bold text-mint-400 mb-2">73%</div>
+          <p class="text-white/40 text-sm leading-relaxed">of consumers want to support ethical businesses but don't know which ones they already fund</p>
+        </div>
+        <div class="reveal p-6 rounded-2xl bg-white/[0.03] border border-white/[0.06]">
+          <div class="font-display text-4xl font-bold text-mint-400 mb-2">$18K+</div>
+          <p class="text-white/40 text-sm leading-relaxed">average annual discretionary spending per household that could be redirected to ethical alternatives</p>
+        </div>
+        <div class="reveal p-6 rounded-2xl bg-white/[0.03] border border-white/[0.06]">
+          <div class="font-display text-4xl font-bold text-mint-400 mb-2">0</div>
+          <p class="text-white/40 text-sm leading-relaxed">tools that use AI to research <em>any</em> company on demand — until now</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- === FEATURES === -->
+  <section id="features" class="relative py-28 sm:py-36">
+    <div class="absolute inset-0 bg-dark-900"></div>
+    <!-- Subtle accent -->
+    <div class="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-[1px] bg-gradient-to-r from-transparent via-mint-500/20 to-transparent"></div>
+
+    <div class="relative z-10 max-w-6xl mx-auto px-6">
+      <div class="reveal text-center mb-16">
+        <p class="text-mint-400 font-display text-lg mb-4 tracking-wide">What MintWarden does</p>
+        <h2 class="font-display text-3xl sm:text-4xl md:text-5xl font-bold">
+          Intelligence, not just<br class="hidden sm:block"> information
+        </h2>
+      </div>
+
+      <div class="reveal-stagger grid md:grid-cols-2 gap-5">
+        <!-- Feature 1 -->
+        <div class="reveal card-glow group p-8 rounded-2xl bg-white/[0.02] border border-white/[0.06] hover:bg-white/[0.04] transition-all duration-500">
+          <div class="w-12 h-12 rounded-xl bg-mint-500/10 border border-mint-500/20 flex items-center justify-center mb-6 group-hover:bg-mint-500/15 transition-colors">
+            <svg class="w-6 h-6 text-mint-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M2.25 18.75a60.07 60.07 0 0115.797 2.101c.727.198 1.453-.342 1.453-1.096V18.75M3.75 4.5v.75A.75.75 0 013 6h-.75m0 0v-.375c0-.621.504-1.125 1.125-1.125H20.25M2.25 6v9m18-10.5v.75c0 .414.336.75.75.75h.75m-1.5-1.5h.375c.621 0 1.125.504 1.125 1.125v9.75c0 .621-.504 1.125-1.125 1.125h-.375m1.5-1.5H21a.75.75 0 00-.75.75v.75m0 0H3.75m0 0h-.375a1.125 1.125 0 01-1.125-1.125V15m1.5 1.5v-.75A.75.75 0 003 15h-.75M15 10.5a3 3 0 11-6 0 3 3 0 016 0zm3 0h.008v.008H18V10.5zm-12 0h.008v.008H6V10.5z"/>
+            </svg>
+          </div>
+          <h3 class="font-display text-xl font-semibold mb-3">Automatic Spending Analysis</h3>
+          <p class="text-white/40 leading-relaxed">
+            Connect your bank accounts securely. MintWarden categorizes every merchant and maps your money flow — automatically, in real time.
+          </p>
+        </div>
+
+        <!-- Feature 2 -->
+        <div class="reveal card-glow group p-8 rounded-2xl bg-white/[0.02] border border-white/[0.06] hover:bg-white/[0.04] transition-all duration-500">
+          <div class="w-12 h-12 rounded-xl bg-mint-500/10 border border-mint-500/20 flex items-center justify-center mb-6 group-hover:bg-mint-500/15 transition-colors">
+            <svg class="w-6 h-6 text-mint-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 013 19.875v-6.75zM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V8.625zM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V4.125z"/>
+            </svg>
+          </div>
+          <h3 class="font-display text-xl font-semibold mb-3">Multi-Dimensional Ethical Scoring</h3>
+          <p class="text-white/40 leading-relaxed">
+            Every company scored across sustainability, labor practices, political donations, and social impact. Not a single score — a full picture.
+          </p>
+        </div>
+
+        <!-- Feature 3 — KEY DIFFERENTIATOR -->
+        <div class="reveal card-glow group p-8 rounded-2xl bg-gradient-to-br from-mint-500/[0.06] to-transparent border border-mint-500/15 hover:border-mint-500/25 transition-all duration-500">
+          <div class="w-12 h-12 rounded-xl bg-mint-500/15 border border-mint-500/30 flex items-center justify-center mb-6 group-hover:bg-mint-500/20 transition-colors">
+            <svg class="w-6 h-6 text-mint-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.455 2.456L21.75 6l-1.036.259a3.375 3.375 0 00-2.455 2.456zM16.894 20.567L16.5 21.75l-.394-1.183a2.25 2.25 0 00-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 001.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 001.423 1.423l1.183.394-1.183.394a2.25 2.25 0 00-1.423 1.423z"/>
+            </svg>
+          </div>
+          <div class="flex items-center gap-2 mb-3">
+            <h3 class="font-display text-xl font-semibold">AI-Powered Research</h3>
+            <span class="text-[10px] font-semibold uppercase tracking-widest text-mint-400 bg-mint-500/10 px-2 py-0.5 rounded-full">Unique</span>
+          </div>
+          <p class="text-white/45 leading-relaxed">
+            Other tools rely on static databases. MintWarden's AI researches <em class="text-white/60 not-italic">any</em> company on demand — even ones nobody has scored before. Ask it anything.
+          </p>
+        </div>
+
+        <!-- Feature 4 -->
+        <div class="reveal card-glow group p-8 rounded-2xl bg-white/[0.02] border border-white/[0.06] hover:bg-white/[0.04] transition-all duration-500">
+          <div class="w-12 h-12 rounded-xl bg-mint-500/10 border border-mint-500/20 flex items-center justify-center mb-6 group-hover:bg-mint-500/15 transition-colors">
+            <svg class="w-6 h-6 text-mint-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M7.5 21L3 16.5m0 0L7.5 12M3 16.5h13.5m0-13.5L21 7.5m0 0L16.5 12M21 7.5H7.5"/>
+            </svg>
+          </div>
+          <h3 class="font-display text-xl font-semibold mb-3">Divestment Planning</h3>
+          <p class="text-white/40 leading-relaxed">
+            Get personalized recommendations to shift spending to ethical alternatives. Not generic advice — based on <em>your</em> actual habits and values.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- === HOW IT WORKS === -->
+  <section id="how-it-works" class="relative py-28 sm:py-36 overflow-hidden">
+    <div class="absolute inset-0 bg-gradient-to-b from-dark-900 via-dark-800 to-dark-900"></div>
+    <div class="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-[1px] bg-gradient-to-r from-transparent via-white/5 to-transparent"></div>
+
+    <div class="relative z-10 max-w-5xl mx-auto px-6">
+      <div class="reveal text-center mb-20">
+        <p class="text-mint-400 font-display text-lg mb-4 tracking-wide">How it works</p>
+        <h2 class="font-display text-3xl sm:text-4xl md:text-5xl font-bold">
+          Three steps to clarity
+        </h2>
+      </div>
+
+      <div class="reveal-stagger grid md:grid-cols-3 gap-8 md:gap-12">
+        <!-- Step 1 -->
+        <div class="reveal text-center md:text-left">
+          <div class="inline-flex items-center justify-center w-14 h-14 rounded-full border-2 border-mint-500/30 text-mint-400 font-display text-2xl font-bold mb-6">1</div>
+          <h3 class="font-display text-xl font-semibold mb-3">Connect</h3>
+          <p class="text-white/40 leading-relaxed">
+            Link your bank accounts securely through Plaid. Bank-level encryption. We never see your password.
+          </p>
+        </div>
+        <!-- Step 2 -->
+        <div class="reveal text-center md:text-left">
+          <div class="inline-flex items-center justify-center w-14 h-14 rounded-full border-2 border-mint-500/30 text-mint-400 font-display text-2xl font-bold mb-6">2</div>
+          <h3 class="font-display text-xl font-semibold mb-3">Discover</h3>
+          <p class="text-white/40 leading-relaxed">
+            Our AI analyzes every transaction, researches each merchant, and builds your ethical spending profile.
+          </p>
+        </div>
+        <!-- Step 3 -->
+        <div class="reveal text-center md:text-left">
+          <div class="inline-flex items-center justify-center w-14 h-14 rounded-full border-2 border-mint-500/30 text-mint-400 font-display text-2xl font-bold mb-6">3</div>
+          <h3 class="font-display text-xl font-semibold mb-3">Act</h3>
+          <p class="text-white/40 leading-relaxed">
+            See your impact dashboard. Get personalized alternatives. Shift your spending to match your values.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- === WHY MINTWARDEN === -->
+  <section id="why" class="relative py-28 sm:py-36">
+    <div class="absolute inset-0 bg-dark-900"></div>
+    <div class="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-[1px] bg-gradient-to-r from-transparent via-mint-500/20 to-transparent"></div>
+
+    <div class="relative z-10 max-w-5xl mx-auto px-6">
+      <div class="reveal text-center mb-16">
+        <p class="text-mint-400 font-display text-lg mb-4 tracking-wide">Why MintWarden</p>
+        <h2 class="font-display text-3xl sm:text-4xl md:text-5xl font-bold">
+          Not another static database
+        </h2>
+      </div>
+
+      <!-- Comparison -->
+      <div class="reveal max-w-3xl mx-auto">
+        <div class="grid grid-cols-[1fr,auto,1fr] gap-4 sm:gap-6 items-start">
+          <!-- Left: Others -->
+          <div>
+            <p class="text-white/30 text-sm font-semibold uppercase tracking-widest mb-6 text-center">Other tools</p>
+            <div class="space-y-4">
+              <div class="p-4 rounded-xl bg-white/[0.02] border border-white/[0.04]">
+                <p class="text-white/30 text-sm">Pre-built database of scored companies</p>
+              </div>
+              <div class="p-4 rounded-xl bg-white/[0.02] border border-white/[0.04]">
+                <p class="text-white/30 text-sm">Fixed ethical categories</p>
+              </div>
+              <div class="p-4 rounded-xl bg-white/[0.02] border border-white/[0.04]">
+                <p class="text-white/30 text-sm">Limited to known brands</p>
+              </div>
+              <div class="p-4 rounded-xl bg-white/[0.02] border border-white/[0.04]">
+                <p class="text-white/30 text-sm">Scores updated periodically</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Divider -->
+          <div class="flex flex-col items-center pt-10">
+            <div class="w-px h-full bg-gradient-to-b from-white/5 via-mint-500/30 to-white/5"></div>
+          </div>
+
+          <!-- Right: MintWarden -->
+          <div>
+            <p class="text-mint-400 text-sm font-semibold uppercase tracking-widest mb-6 text-center">MintWarden</p>
+            <div class="space-y-4">
+              <div class="p-4 rounded-xl bg-mint-500/[0.05] border border-mint-500/15">
+                <p class="text-white/70 text-sm font-medium">AI researches any company on demand</p>
+              </div>
+              <div class="p-4 rounded-xl bg-mint-500/[0.05] border border-mint-500/15">
+                <p class="text-white/70 text-sm font-medium">You define what ethics mean to you</p>
+              </div>
+              <div class="p-4 rounded-xl bg-mint-500/[0.05] border border-mint-500/15">
+                <p class="text-white/70 text-sm font-medium">Scores any merchant — even local shops</p>
+              </div>
+              <div class="p-4 rounded-xl bg-mint-500/[0.05] border border-mint-500/15">
+                <p class="text-white/70 text-sm font-medium">Always current — AI pulls live data</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- === FINAL CTA === -->
+  <section id="waitlist" class="relative py-28 sm:py-36 overflow-hidden">
+    <!-- Dark gradient with mint glow -->
+    <div class="absolute inset-0 bg-gradient-to-b from-dark-900 via-dark-950 to-dark-950"></div>
+    <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] rounded-full bg-mint-500/[0.03] blur-3xl"></div>
+    <div class="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-[1px] bg-gradient-to-r from-transparent via-white/5 to-transparent"></div>
+
+    <div class="relative z-10 max-w-2xl mx-auto px-6 text-center">
+      <div class="reveal">
+        <h2 class="font-display text-3xl sm:text-4xl md:text-5xl font-bold mb-6">
+          Be the first to<br>
+          <span class="text-gradient italic">take control</span>
+        </h2>
+        <p class="text-white/45 text-lg mb-10 leading-relaxed">
+          MintWarden is in early development. Join the waitlist to get early access and help shape a tool that puts your values first.
+        </p>
+
+        <!-- Email Capture -->
+        <form action="https://formspree.io/f/PLACEHOLDER" method="POST" class="flex flex-col sm:flex-row gap-3 max-w-md mx-auto">
+          <input
+            type="email"
+            name="email"
+            required
+            placeholder="you@email.com"
+            class="flex-1 px-5 py-3.5 rounded-full bg-white/5 border border-white/10 text-white placeholder-white/30 focus:outline-none focus:border-mint-500/50 focus:bg-white/[0.07] transition-all text-sm"
+          >
+          <button
+            type="submit"
+            class="px-7 py-3.5 rounded-full bg-mint-500 text-dark-950 font-semibold text-sm hover:bg-mint-400 hover:shadow-lg hover:shadow-mint-500/20 transition-all whitespace-nowrap"
+          >
+            Join Waitlist
+          </button>
+        </form>
+        <p class="text-xs text-white/20 mt-4">Free. No credit card required.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- === FOOTER === -->
+  <footer class="relative border-t border-white/[0.04]">
+    <div class="absolute inset-0 bg-dark-950"></div>
+    <div class="relative z-10 max-w-6xl mx-auto px-6 py-12">
+      <div class="flex flex-col sm:flex-row items-center justify-between gap-6">
+        <!-- Logo -->
+        <div class="flex items-center gap-2">
+          <svg class="w-6 h-6" viewBox="0 0 32 32" fill="none">
+            <circle cx="16" cy="16" r="14" stroke="currentColor" stroke-width="1.5" class="text-mint-500/30"/>
+            <path d="M10 17.5C10 17.5 12.5 21 16 21C19.5 21 22 17.5 22 17.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" class="text-mint-500/30"/>
+            <circle cx="16" cy="13" r="3" fill="currentColor" class="text-mint-500/30"/>
+          </svg>
+          <span class="font-display text-sm text-white/30">MintWarden</span>
+        </div>
+
+        <!-- Links -->
+        <div class="flex items-center gap-6 text-sm text-white/25">
+          <span>Bank data secured by Plaid</span>
+          <span class="hidden sm:inline">|</span>
+          <a href="mailto:hello@mintwarden.com" class="hover:text-mint-400 transition-colors">Contact</a>
+        </div>
+
+        <!-- Copyright -->
+        <p class="text-xs text-white/15">&copy; 2026 MintWarden. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- === SCRIPTS === -->
+  <script>
+    // Scroll reveal
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+
+    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+    // Navbar background on scroll
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 50) {
+        navbar.classList.add('bg-dark-950/80', 'backdrop-blur-xl', 'border-b', 'border-white/[0.04]');
+      } else {
+        navbar.classList.remove('bg-dark-950/80', 'backdrop-blur-xl', 'border-b', 'border-white/[0.04]');
+      }
+    });
+
+    // Mobile nav toggle
+    const menuToggle = document.getElementById('menu-toggle');
+    const menuClose = document.getElementById('menu-close');
+    const mobileNav = document.getElementById('mobile-nav');
+
+    menuToggle.addEventListener('click', () => mobileNav.classList.add('open'));
+    menuClose.addEventListener('click', () => mobileNav.classList.remove('open'));
+
+    // Close mobile nav on link click
+    mobileNav.querySelectorAll('.nav-link').forEach(link => {
+      link.addEventListener('click', () => mobileNav.classList.remove('open'));
+    });
+
+    // Close mobile nav on escape key
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') mobileNav.classList.remove('open');
+    });
+  </script>
+</body>
+</html>
