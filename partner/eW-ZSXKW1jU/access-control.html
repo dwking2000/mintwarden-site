@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Access Control Policy — MintWarden</title>
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=DM+Sans:ital,opsz,wght@0,9..40,300..700;1,9..40,300..700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>tailwind.config={theme:{extend:{colors:{mint:{50:'#edfff8',100:'#d5ffed',200:'#aeffdb',300:'#70ffc2',400:'#2bfda1',500:'#00e67f',600:'#00bf66',700:'#009553',800:'#067544',900:'#075f3a',950:'#00361f'},dark:{950:'#050a08',900:'#0a1210',800:'#0f1c17',700:'#162820',600:'#1e3a2e'}},fontFamily:{display:['Fraunces','Georgia','serif'],body:['DM Sans','system-ui','sans-serif']}}}}</script>
+  <style>
+    .text-gradient{background:linear-gradient(135deg,#00e67f 0%,#70ffc2 50%,#2bfda1 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;}
+    .prose-legal h2{font-family:'Fraunces',Georgia,serif;font-size:1.25rem;font-weight:600;color:#70ffc2;margin-top:2.5rem;margin-bottom:0.75rem;}
+    .prose-legal h3{font-size:.95rem;font-weight:600;color:#aeffdb;margin-top:1.5rem;margin-bottom:.5rem;text-transform:uppercase;letter-spacing:.05em;}
+    .prose-legal p{color:#94a3b8;line-height:1.75;margin-bottom:1rem;}
+    .prose-legal ul{color:#94a3b8;list-style:none;padding-left:0;margin-bottom:1rem;}
+    .prose-legal ul li{padding-left:1.5rem;position:relative;margin-bottom:.4rem;line-height:1.7;}
+    .prose-legal ul li::before{content:'→';position:absolute;left:0;color:#00e67f;font-size:.85em;}
+    .prose-legal a{color:#00e67f;text-decoration:underline;text-underline-offset:2px;}
+    table{width:100%;border-collapse:collapse;margin-bottom:1.5rem;}
+    th{text-align:left;font-size:.8rem;text-transform:uppercase;letter-spacing:.05em;color:#00e67f;padding:.5rem .75rem;border-bottom:1px solid #1e3a2e;}
+    td{font-size:.9rem;color:#94a3b8;padding:.6rem .75rem;border-bottom:1px solid #162820;vertical-align:top;}
+    tr:last-child td{border-bottom:none;}
+  </style>
+</head>
+<body class="bg-dark-950 font-body text-slate-300 min-h-screen">
+  <header class="fixed top-0 left-0 right-0 z-50 bg-dark-950/80 backdrop-blur-md border-b border-dark-700">
+    <div class="max-w-4xl mx-auto px-6 py-4 flex items-center justify-between">
+      <a href="index.html" class="font-display font-bold text-lg text-white hover:text-mint-400 transition-colors">Mint<span class="text-gradient">Warden</span></a>
+      <span class="text-xs text-slate-500 bg-dark-800 border border-dark-600 px-3 py-1 rounded-full">Partner Access</span>
+    </div>
+  </header>
+
+  <div class="pt-28 pb-12 border-b border-dark-700">
+    <div class="max-w-4xl mx-auto px-6">
+      <a href="index.html" class="text-mint-600 hover:text-mint-400 text-sm transition-colors">← Partner Documents</a>
+      <p class="text-mint-500 text-sm font-medium uppercase tracking-widest mb-3 mt-4">Security</p>
+      <h1 class="font-display text-4xl md:text-5xl font-bold text-white mb-4">Access Control Policy</h1>
+      <p class="text-slate-500 text-sm mt-4">Version: <strong class="text-slate-400">1.0</strong> &nbsp;·&nbsp; Effective: <strong class="text-slate-400">April 19, 2026</strong> &nbsp;·&nbsp; Next review: <strong class="text-slate-400">April 2027</strong></p>
+    </div>
+  </div>
+
+  <main class="max-w-4xl mx-auto px-6 py-16 prose-legal">
+
+    <h2>1. Principles</h2>
+    <ul>
+      <li><strong class="text-slate-200">Least privilege</strong> — Users and systems are granted the minimum access required to perform their function</li>
+      <li><strong class="text-slate-200">Need to know</strong> — Access to sensitive data is limited to those with a documented business need</li>
+      <li><strong class="text-slate-200">Role-based access control (RBAC)</strong> — Access is assigned by role, not individual preference</li>
+      <li><strong class="text-slate-200">Default deny</strong> — Access is denied unless explicitly granted and documented</li>
+    </ul>
+
+    <h2>2. Access Provisioning</h2>
+    <ul>
+      <li>All access requests require justification and approval by the engineering lead</li>
+      <li>Access is assigned based on role and the least-privilege principle</li>
+      <li>New employee access is provisioned on or after their start date only</li>
+      <li>All provisioned access is recorded in the internal access inventory</li>
+    </ul>
+
+    <h2>3. Access Revocation</h2>
+    <table>
+      <thead><tr><th>Trigger</th><th>Action</th><th>Timeline</th></tr></thead>
+      <tbody>
+        <tr><td>Employee termination</td><td>Revoke all access across all systems</td><td>Within 24 hours</td></tr>
+        <tr><td>Employee role change</td><td>Modify access to match new role</td><td>Within 48 hours</td></tr>
+        <tr><td>Contractor engagement ends</td><td>Revoke all access</td><td>Day of departure</td></tr>
+        <tr><td>Suspicious activity detected</td><td>Suspend access pending investigation</td><td>Immediately</td></tr>
+      </tbody>
+    </table>
+
+    <h2>4. Privileged Access</h2>
+    <ul>
+      <li>Production system access is restricted to essential personnel only</li>
+      <li>All privileged actions are logged with user identity and timestamp</li>
+      <li>No shared administrative accounts — every individual has a named account</li>
+      <li>Service accounts (used by applications) have scoped permissions and are reviewed annually</li>
+    </ul>
+
+    <h2>5. Periodic Access Reviews</h2>
+    <p>Access is reviewed quarterly:</p>
+    <ul>
+      <li>All system access is inventoried and verified against active employees and contractors</li>
+      <li>Any access that is excessive for the current role is removed</li>
+      <li>Review date and reviewer are documented</li>
+    </ul>
+
+    <h2>6. Consumer Access</h2>
+    <ul>
+      <li>Consumer accounts use email + password authentication with multi-factor authentication (MFA) required</li>
+      <li>Session tokens expire after a defined period of inactivity</li>
+      <li>Account lockout enforced after repeated failed login attempts</li>
+      <li>Consumers can revoke their linked bank connections at any time from account settings</li>
+    </ul>
+
+    <h2>7. Authentication Standards</h2>
+    <ul>
+      <li>Multi-factor authentication required on all internal systems storing or processing consumer data</li>
+      <li>Strong unique passwords required; use of a password manager is mandated for all team members</li>
+      <li>Secure tokens (not passwords) used for all machine-to-machine authentication</li>
+    </ul>
+
+    <div class="mt-12 bg-dark-800 border border-dark-600 rounded-xl px-6 py-5 text-sm text-slate-500">
+      Questions? Contact <a href="mailto:security@mintwarden.com" class="text-mint-600 hover:text-mint-400 underline underline-offset-2">security@mintwarden.com</a>
+    </div>
+
+  </main>
+
+  <footer class="border-t border-dark-700 py-10 mt-8">
+    <div class="max-w-4xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-slate-500">
+      <span>© 2026 MintWarden. Partner access only.</span>
+      <a href="index.html" class="hover:text-mint-400 transition-colors">← Back to partner documents</a>
+    </div>
+  </footer>
+</body>
+</html>

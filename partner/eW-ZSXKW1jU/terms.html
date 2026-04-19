@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Terms of Service — MintWarden</title>
+  <meta name="description" content="MintWarden's terms of service — your rights and responsibilities when using MintWarden.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=DM+Sans:ital,opsz,wght@0,9..40,300..700;1,9..40,300..700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            mint: {
+              50: '#edfff8', 100: '#d5ffed', 200: '#aeffdb', 300: '#70ffc2',
+              400: '#2bfda1', 500: '#00e67f', 600: '#00bf66', 700: '#009553',
+              800: '#067544', 900: '#075f3a', 950: '#00361f',
+            },
+            dark: {
+              950: '#050a08', 900: '#0a1210', 800: '#0f1c17',
+              700: '#162820', 600: '#1e3a2e',
+            },
+          },
+          fontFamily: {
+            display: ['Fraunces', 'Georgia', 'serif'],
+            body: ['DM Sans', 'system-ui', 'sans-serif'],
+          },
+        },
+      },
+    }
+  </script>
+  <style>
+    .text-gradient {
+      background: linear-gradient(135deg, #00e67f 0%, #70ffc2 50%, #2bfda1 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .prose-legal h2 {
+      font-family: 'Fraunces', Georgia, serif;
+      font-size: 1.25rem;
+      font-weight: 600;
+      color: #70ffc2;
+      margin-top: 2.5rem;
+      margin-bottom: 0.75rem;
+    }
+    .prose-legal h3 {
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: #aeffdb;
+      margin-top: 1.5rem;
+      margin-bottom: 0.5rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    .prose-legal p {
+      color: #94a3b8;
+      line-height: 1.75;
+      margin-bottom: 1rem;
+    }
+    .prose-legal ul {
+      color: #94a3b8;
+      list-style: none;
+      padding-left: 0;
+      margin-bottom: 1rem;
+    }
+    .prose-legal ul li {
+      padding-left: 1.5rem;
+      position: relative;
+      margin-bottom: 0.4rem;
+      line-height: 1.7;
+    }
+    .prose-legal ul li::before {
+      content: '→';
+      position: absolute;
+      left: 0;
+      color: #00e67f;
+      font-size: 0.85em;
+    }
+    .prose-legal a {
+      color: #00e67f;
+      text-decoration: underline;
+      text-underline-offset: 2px;
+    }
+    .prose-legal a:hover { color: #70ffc2; }
+    .callout {
+      background: #0f1c17;
+      border-left: 3px solid #00e67f;
+      border-radius: 0 0.5rem 0.5rem 0;
+      padding: 1rem 1.25rem;
+      margin: 1.5rem 0;
+      color: #94a3b8;
+      font-size: 0.95rem;
+      line-height: 1.7;
+    }
+  </style>
+</head>
+<body class="bg-dark-950 font-body text-slate-300 min-h-screen">
+
+  <!-- Nav -->
+  <header class="fixed top-0 left-0 right-0 z-50 bg-dark-950/80 backdrop-blur-md border-b border-dark-700">
+    <div class="max-w-4xl mx-auto px-6 py-4 flex items-center justify-between">
+      <a href="/" class="font-display font-bold text-lg text-white hover:text-mint-400 transition-colors">
+        Mint<span class="text-gradient">Warden</span>
+      </a>
+      <nav class="flex items-center gap-6 text-sm text-slate-400">
+        <a href="/privacy.html" class="hover:text-mint-400 transition-colors">Privacy</a>
+        <a href="mailto:legal@mintwarden.com" class="hover:text-mint-400 transition-colors">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <div class="pt-28 pb-12 border-b border-dark-700">
+    <div class="max-w-4xl mx-auto px-6">
+      <p class="text-mint-500 text-sm font-medium uppercase tracking-widest mb-3">Legal</p>
+      <h1 class="font-display text-4xl md:text-5xl font-bold text-white mb-4">Terms of Service</h1>
+      <p class="text-slate-400 text-lg max-w-2xl">By using MintWarden you agree to these terms. We've written them to be readable — not a wall of legalese.</p>
+      <p class="text-slate-500 text-sm mt-4">Effective date: <strong class="text-slate-400">April 19, 2026</strong> &nbsp;·&nbsp; Last updated: <strong class="text-slate-400">April 19, 2026</strong></p>
+    </div>
+  </div>
+
+  <!-- Content -->
+  <main class="max-w-4xl mx-auto px-6 py-16 prose-legal">
+
+    <h2>1. Who These Terms Apply To</h2>
+    <p>These Terms of Service ("Terms") are a legal agreement between you and MintWarden ("MintWarden," "we," "our," or "us"). They govern your access to and use of MintWarden's website, web application, and mobile application (collectively, the "Service"). By creating an account or using the Service, you agree to be bound by these Terms and our <a href="/privacy.html">Privacy Policy</a>.</p>
+
+    <h2>2. Eligibility</h2>
+    <p>You must be at least 18 years old and a resident of the United States to use MintWarden. By using the Service, you confirm that you meet these requirements. If you do not, you may not use the Service.</p>
+
+    <h2>3. Your Account</h2>
+    <ul>
+      <li>You are responsible for keeping your login credentials confidential</li>
+      <li>You are responsible for all activity that occurs under your account</li>
+      <li>Notify us immediately of any unauthorized use at <a href="mailto:security@mintwarden.com">security@mintwarden.com</a></li>
+      <li>You may not share your account with others or create accounts on behalf of someone else without their consent</li>
+    </ul>
+
+    <h2>4. Consent to Data Collection and Processing</h2>
+    <div class="callout">
+      By creating an account, you explicitly consent to the collection, processing, and storage of your personal and financial data as described in our <a href="/privacy.html">Privacy Policy</a>. You may withdraw consent at any time by deleting your account.
+    </div>
+    <p>Specifically, you consent to:</p>
+    <ul>
+      <li>Collection and processing of your personal information to provide the Service</li>
+      <li>Connecting to your financial institutions via our banking data partner to retrieve transaction history and account balances</li>
+      <li>Secure storage of an encrypted token that allows us to periodically sync your financial data</li>
+      <li>Use of your anonymized, aggregated spending patterns to generate our ethical company scorecards</li>
+    </ul>
+
+    <h2>5. Bank Account Connections</h2>
+    <p>MintWarden uses a regulated third-party banking data service to connect to your financial institutions. When you link a bank account:</p>
+    <ul>
+      <li>You authorize us to retrieve transaction history, balances, and account information on your behalf</li>
+      <li>Your banking credentials go directly to your financial institution — MintWarden never receives your bank username or password</li>
+      <li>You agree to that service's end user privacy policy in addition to ours</li>
+      <li>You can revoke access to any linked account at any time from your account settings</li>
+    </ul>
+
+    <h2>6. Acceptable Use</h2>
+    <p>You agree not to:</p>
+    <ul>
+      <li>Use MintWarden for any unlawful purpose or in violation of any applicable law or regulation</li>
+      <li>Attempt to gain unauthorized access to any part of the Service or another user's account</li>
+      <li>Interfere with, disrupt, or degrade the performance of the Service</li>
+      <li>Attempt to reverse engineer, decompile, or extract the source code of the Service</li>
+      <li>Use automated tools to scrape or extract data from the Service</li>
+      <li>Impersonate any person or entity or misrepresent your affiliation with any person or entity</li>
+    </ul>
+
+    <h2>7. Not Financial Advice</h2>
+    <div class="callout">
+      MintWarden provides financial data aggregation and informational insights. <strong style="color: #aeffdb;">We are not a financial advisor, broker, bank, or investment service.</strong> Nothing in MintWarden constitutes financial, legal, tax, or investment advice. You should consult a qualified professional before making financial decisions.
+    </div>
+
+    <h2>8. Intellectual Property</h2>
+    <p>The Service, including its design, software, content, and trademarks, is owned by MintWarden and protected by applicable intellectual property laws. You may not use our name, logo, or branding without our written permission.</p>
+    <p>You retain ownership of any data you provide to us. By using the Service, you grant MintWarden a limited license to process your data solely to provide the Service as described in these Terms and our Privacy Policy.</p>
+
+    <h2>9. Disclaimers</h2>
+    <p>The Service is provided <strong class="text-slate-200">"as is"</strong> and <strong class="text-slate-200">"as available"</strong> without warranties of any kind, express or implied, including but not limited to warranties of merchantability, fitness for a particular purpose, accuracy of financial data, or uninterrupted availability.</p>
+    <p>We do not guarantee that the financial data retrieved from your institutions will be complete, accurate, or current — this data depends on your financial institution's systems and our banking data partner.</p>
+
+    <h2>10. Limitation of Liability</h2>
+    <p>To the maximum extent permitted by applicable law, MintWarden shall not be liable for any indirect, incidental, special, consequential, or punitive damages, including loss of data, loss of profits, or business interruption, arising from your use of or inability to use the Service — even if we have been advised of the possibility of such damages.</p>
+    <p>Our total liability for any claim arising from your use of the Service shall not exceed the greater of $100 or the amount you paid us in the 12 months preceding the claim.</p>
+
+    <h2>11. Termination</h2>
+    <p>Either party may terminate your account at any time:</p>
+    <ul>
+      <li><strong class="text-slate-200">You</strong> may delete your account at any time via Settings → Delete Account. Your data will be purged within 30 days per our <a href="/privacy.html">Privacy Policy</a>.</li>
+      <li><strong class="text-slate-200">We</strong> may suspend or terminate your account if you violate these Terms, with or without notice depending on severity.</li>
+    </ul>
+
+    <h2>12. Changes to These Terms</h2>
+    <p>We'll notify you of material changes by email and via in-app notice at least 30 days before the change takes effect. Your continued use of MintWarden after the effective date constitutes your acceptance of the updated Terms.</p>
+
+    <h2>13. Governing Law</h2>
+    <p>These Terms are governed by the laws of the State of Oregon, without regard to its conflict of law provisions. Any disputes shall be resolved in the courts of Oregon.</p>
+
+    <h2>14. Contact</h2>
+    <p>Questions about these Terms:</p>
+    <ul>
+      <li>Email: <a href="mailto:legal@mintwarden.com">legal@mintwarden.com</a></li>
+      <li>Website: <a href="https://mintwarden.com/terms.html">mintwarden.com/terms</a></li>
+    </ul>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="border-t border-dark-700 py-10 mt-8">
+    <div class="max-w-4xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-slate-500">
+      <span>© 2026 MintWarden. All rights reserved.</span>
+      <div class="flex gap-6">
+        <a href="/privacy.html" class="hover:text-mint-400 transition-colors">Privacy</a>
+        <a href="/terms.html" class="text-mint-600 hover:text-mint-400 transition-colors">Terms</a>
+        <a href="mailto:legal@mintwarden.com" class="hover:text-mint-400 transition-colors">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

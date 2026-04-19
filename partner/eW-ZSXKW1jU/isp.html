@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Information Security Policy — MintWarden</title>
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=DM+Sans:ital,opsz,wght@0,9..40,300..700;1,9..40,300..700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>tailwind.config={theme:{extend:{colors:{mint:{50:'#edfff8',100:'#d5ffed',200:'#aeffdb',300:'#70ffc2',400:'#2bfda1',500:'#00e67f',600:'#00bf66',700:'#009553',800:'#067544',900:'#075f3a',950:'#00361f'},dark:{950:'#050a08',900:'#0a1210',800:'#0f1c17',700:'#162820',600:'#1e3a2e'}},fontFamily:{display:['Fraunces','Georgia','serif'],body:['DM Sans','system-ui','sans-serif']}}}}</script>
+  <style>
+    .text-gradient{background:linear-gradient(135deg,#00e67f 0%,#70ffc2 50%,#2bfda1 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;}
+    .prose-legal h2{font-family:'Fraunces',Georgia,serif;font-size:1.25rem;font-weight:600;color:#70ffc2;margin-top:2.5rem;margin-bottom:0.75rem;}
+    .prose-legal h3{font-size:.95rem;font-weight:600;color:#aeffdb;margin-top:1.5rem;margin-bottom:.5rem;text-transform:uppercase;letter-spacing:.05em;}
+    .prose-legal p{color:#94a3b8;line-height:1.75;margin-bottom:1rem;}
+    .prose-legal ul{color:#94a3b8;list-style:none;padding-left:0;margin-bottom:1rem;}
+    .prose-legal ul li{padding-left:1.5rem;position:relative;margin-bottom:.4rem;line-height:1.7;}
+    .prose-legal ul li::before{content:'→';position:absolute;left:0;color:#00e67f;font-size:.85em;}
+    .prose-legal a{color:#00e67f;text-decoration:underline;text-underline-offset:2px;}
+    table{width:100%;border-collapse:collapse;margin-bottom:1.5rem;}
+    th{text-align:left;font-size:.8rem;text-transform:uppercase;letter-spacing:.05em;color:#00e67f;padding:.5rem .75rem;border-bottom:1px solid #1e3a2e;}
+    td{font-size:.9rem;color:#94a3b8;padding:.6rem .75rem;border-bottom:1px solid #162820;vertical-align:top;}
+    tr:last-child td{border-bottom:none;}
+  </style>
+</head>
+<body class="bg-dark-950 font-body text-slate-300 min-h-screen">
+  <header class="fixed top-0 left-0 right-0 z-50 bg-dark-950/80 backdrop-blur-md border-b border-dark-700">
+    <div class="max-w-4xl mx-auto px-6 py-4 flex items-center justify-between">
+      <a href="index.html" class="font-display font-bold text-lg text-white hover:text-mint-400 transition-colors">Mint<span class="text-gradient">Warden</span></a>
+      <span class="text-xs text-slate-500 bg-dark-800 border border-dark-600 px-3 py-1 rounded-full">Partner Access</span>
+    </div>
+  </header>
+
+  <div class="pt-28 pb-12 border-b border-dark-700">
+    <div class="max-w-4xl mx-auto px-6">
+      <a href="index.html" class="text-mint-600 hover:text-mint-400 text-sm transition-colors">← Partner Documents</a>
+      <p class="text-mint-500 text-sm font-medium uppercase tracking-widest mb-3 mt-4">Security</p>
+      <h1 class="font-display text-4xl md:text-5xl font-bold text-white mb-4">Information Security Policy</h1>
+      <p class="text-slate-500 text-sm mt-4">Version: <strong class="text-slate-400">1.0</strong> &nbsp;·&nbsp; Effective: <strong class="text-slate-400">April 19, 2026</strong> &nbsp;·&nbsp; Next review: <strong class="text-slate-400">April 2027</strong></p>
+    </div>
+  </div>
+
+  <main class="max-w-4xl mx-auto px-6 py-16 prose-legal">
+
+    <h2>1. Purpose and Objectives</h2>
+    <p>This Information Security Policy (ISP) establishes MintWarden's commitment to protecting the confidentiality, integrity, and availability of its information assets — including user financial data, internal systems, and infrastructure. The objectives of this policy are to:</p>
+    <ul>
+      <li>Protect consumer financial data entrusted to MintWarden</li>
+      <li>Comply with applicable laws, regulations, and contractual obligations including partner security requirements</li>
+      <li>Establish accountability for information security across the organization</li>
+      <li>Provide a framework for identifying, assessing, and managing security risks</li>
+    </ul>
+
+    <h2>2. Scope</h2>
+    <p>This policy applies to:</p>
+    <ul>
+      <li>All MintWarden employees, contractors, and third-party vendors</li>
+      <li>All systems, applications, and infrastructure that store, process, or transmit MintWarden or user data</li>
+      <li>All data types: user PII, financial account data, access tokens, internal credentials, and audit logs</li>
+    </ul>
+
+    <h2>3. Roles and Accountability</h2>
+    <table>
+      <thead><tr><th>Role</th><th>Responsibility</th></tr></thead>
+      <tbody>
+        <tr><td>Founder / CEO</td><td>Policy approval and security program oversight</td></tr>
+        <tr><td>Engineering Lead</td><td>Technical controls, infrastructure security, and incident response</td></tr>
+        <tr><td>All team members</td><td>Comply with this policy and report security incidents immediately</td></tr>
+      </tbody>
+    </table>
+
+    <h2>4. Core Security Controls</h2>
+
+    <h3>Access Control</h3>
+    <ul>
+      <li>Principle of least privilege applied to all systems</li>
+      <li>Role-based access control (RBAC) enforced across all internal tools</li>
+      <li>Access reviewed quarterly; access revoked within 24 hours of employee departure</li>
+    </ul>
+
+    <h3>Authentication</h3>
+    <ul>
+      <li>Multi-factor authentication (MFA) required on all internal systems and administrative interfaces</li>
+      <li>Secure tokens used for all API authentication — no plain credentials in transit</li>
+      <li>Consumer-facing application enforces MFA at login</li>
+    </ul>
+
+    <h3>Data Protection</h3>
+    <ul>
+      <li>All data encrypted in transit (TLS 1.2+) and at rest</li>
+      <li>Financial access tokens stored using strong symmetric encryption with key derivation</li>
+      <li>No credentials or secrets stored in source code; secrets managed via environment configuration</li>
+    </ul>
+
+    <h3>Vulnerability Management</h3>
+    <ul>
+      <li>Automated dependency scanning on all source code repositories</li>
+      <li>Vulnerabilities patched per defined severity SLA (Critical: 24h, High: 7d, Medium: 30d)</li>
+      <li>End-of-life software actively monitored and replaced per EOL Management Policy</li>
+    </ul>
+
+    <h3>Incident Response</h3>
+    <ul>
+      <li>Security incidents reported immediately to the engineering lead</li>
+      <li>Incident log maintained with: date, description, impact, root cause, remediation</li>
+      <li>Users notified of data breaches within 72 hours as required by applicable law</li>
+    </ul>
+
+    <h3>Logging and Monitoring</h3>
+    <ul>
+      <li>Access to production systems logged with timestamps and user identities</li>
+      <li>Logs retained for 2 years</li>
+      <li>Access patterns reviewed during quarterly audits</li>
+    </ul>
+
+    <h2>5. Third-Party Security</h2>
+    <p>Third-party services are evaluated for security posture prior to integration. Access granted to third parties is limited to what is strictly necessary for the contracted purpose. We contractually require service providers to maintain security standards consistent with this policy.</p>
+
+    <h2>6. Policy Maintenance</h2>
+    <p>This policy is reviewed annually and updated when significant changes to technology or operations occur, new regulatory requirements take effect, or a security incident reveals a gap in controls.</p>
+
+    <div class="mt-12 bg-dark-800 border border-dark-600 rounded-xl px-6 py-5 text-sm text-slate-500">
+      Questions? Contact <a href="mailto:security@mintwarden.com" class="text-mint-600 hover:text-mint-400 underline underline-offset-2">security@mintwarden.com</a>
+    </div>
+
+  </main>
+
+  <footer class="border-t border-dark-700 py-10 mt-8">
+    <div class="max-w-4xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-slate-500">
+      <span>© 2026 MintWarden. Partner access only.</span>
+      <a href="index.html" class="hover:text-mint-400 transition-colors">← Back to partner documents</a>
+    </div>
+  </footer>
+</body>
+</html>
